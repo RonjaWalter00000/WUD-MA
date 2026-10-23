@@ -53,7 +53,7 @@ Auf der Session Card kreuzt du an, was du vorhast:
 - Vorbei ist vorbei.
 - Das Gesetz der zwei Füße: Wenn du nichts mehr lernst oder beiträgst, wechselst du die Session.
 
-Das Ergebnis: Themen, die die Community gerade wirklich bewegen – von „Measuring the ROI of UX“ über „Chancen von Figma Make“ bis Accessibility –, und Gespräche auf Augenhöhe.
+Das Ergebnis: Themen, die die Community gerade wirklich bewegen, und Gespräche auf Augenhöhe.
 
 ---
 

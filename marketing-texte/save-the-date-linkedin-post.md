@@ -29,7 +29,7 @@ Save the Date! 🗓️ Der World Usability Day Mannheim ist zurück.
 
 Am 12. November dreht sich im C-Hub alles um User Experience und menschenzentriertes Design – und zwar so, wie die Community es will. Denn bei uns gibt es kein festes Programm: Im Open-Space-Format pitcht ihr eure Themen, und gemeinsam entsteht daraus die Agenda.
 
-Ob „Measuring the ROI of UX“, „Chancen von Figma Make“ oder Accessibility – welches Thema würdest du mitbringen? Schreib’s in die Kommentare 👇
+Ob KI im Design, Research-Methoden oder Accessibility – welches Thema würdest du mitbringen? Schreib’s in die Kommentare 👇
 
 📅 Donnerstag, 12.11.2026, 14–19 Uhr
 📍 C-Hub Mannheim, Hafenstraße 25

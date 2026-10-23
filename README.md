@@ -42,6 +42,7 @@ Versandplan mit Terminen: [`newsletter/README.md`](newsletter/README.md)
 | `…_save-the-date_quadrat_1080x1080.png` | 1 : 1 | Save-the-Date für Instagram & Co. |
 | `…_session-card_linkedin_1080x1350.png` | 4 : 5 | „Was pitchst du?“-Post im Stil der Session Cards |
 | `…_flyer_a5_mit-beschnitt.pdf` | DIN A5 + 3 mm | Druckbarer Flyer, Vorder- & Rückseite, QR-Code zur Anmeldung |
+| `…_flyer_a5_digital.pdf` | DIN A5 | Gleicher Flyer ohne Beschnittränder – als Mail-Anhang (z. B. Newsletter 1) |
 | `…_flyer_vorschau-1/2.png` | | Vorschaubilder des Flyers |
 
 Außerdem: [`assets/kalender/wud-mannheim-2026.ics`](assets/kalender/wud-mannheim-2026.ics) – Kalendereintrag zum Verlinken im Newsletter.
