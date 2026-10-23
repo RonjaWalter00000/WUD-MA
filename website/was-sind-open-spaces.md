@@ -31,17 +31,15 @@ So landen genau die Themen auf dem Programm, die die UX-Community gerade wirklic
 
 ### In vier Schritten zur eigenen Agenda
 
-**1. Session Card ausfüllen**
-Ab 15:00 Uhr startet das Session Planning. Du schreibst dein Thema auf eine Session Card und kreuzt an, welche Art von Session du anbieten möchtest.
+*Layout-Vorschlag: 4 Karten im 2×2-Raster (wie auf der Startseite), jeweils Illustration oben, darunter Überschrift und Text. Die Illustrationen liegen bereits in der WordPress-Mediathek.*
 
-**2. Kurz pitchen**
-Du stellst deine Idee in 1–2 Minuten vor. Drei Sätze reichen: Worum geht’s? Was nehmen die anderen mit? Für wen ist es spannend?
+| | |
+|---|---|
+| <img src="https://wud-ma.de/wp-content/uploads/2026/10/Illustration-01.png" width="360" alt="Post-its mit Session-Themen"><br>**1. Session Pitches**<br>Ab 15:00 Uhr startet das Session Planning. Du schreibst dein Thema auf eine Session Card, kreuzt an, ob du eine Diskussion, eine Co-Creation oder einen Vortrag planst – und stellst deine Idee in 1–2 Minuten vor. | <img src="https://wud-ma.de/wp-content/uploads/2026/10/Illustration-02.png" width="360" alt="Post-its mit Raum- und Zeitangaben"><br>**2. Gemeinsame Planung**<br>Alle Karten kommen auf das Session Board. Gemeinsam verteilen wir sie auf Räume und Zeiten – so entsteht in wenigen Minuten das Programm des Tages. |
+| <img src="https://wud-ma.de/wp-content/uploads/2026/10/Illustration-03.png" width="360" alt="Nachdenkliches Emoji mit Pfeilen zu mehreren Sessions"><br>**3. Du entscheidest!**<br>In zwei Session-Runden suchst du dir aus, wo du mitmachst. Und wenn dich ein anderes Thema mehr reizt, wechselst du einfach – das ist ausdrücklich erlaubt. | <img src="https://wud-ma.de/wp-content/uploads/2026/10/Illustration-04.png" width="360" alt="Mehrere Personen rund um ein Session-Thema"><br>**4. Aktive Teilnahme**<br>Im Open Space gibt es keine Zuschauer:innen, nur Teilnehmende. Diskutiere mit, teile deine Erfahrungen und lerne von anderen. |
 
-**3. Ab aufs Session Board**
-Alle Karten kommen auf das Session Board und werden gemeinsam auf Räume und Zeiten verteilt.
-
-**4. Du entscheidest**
-In zwei Session-Runden suchst du dir aus, wo du mitmachst – und kannst jederzeit wechseln.
+**Dateien in der Mediathek:**
+`Illustration-01.png` (Session Pitches) · `Illustration-02.png` (Gemeinsame Planung) · `Illustration-03.png` (Du entscheidest!) · `Illustration-04.png` (Aktive Teilnahme)
 
 ---
 
