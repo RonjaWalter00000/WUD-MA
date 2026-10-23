@@ -9,6 +9,8 @@ Alternative: [`…_save-the-date_quadrat_1080x1080.png`](../assets/export/wud-ma
 
 ## Variante A – Kurz & knackig
 
+<img src="../assets/export/wud-ma-2026_save-the-date_linkedin_1080x1350.png" width="360" alt="Save the Date Post">
+
 📌 Save the Date: Am 12. November ist World Usability Day in Mannheim!
 
 Wir treffen uns im C-Hub zu Open Space Sessions, einer Keynote und einem entspannten Get Together. Das Programm? Macht ihr. 🙌
@@ -24,6 +26,8 @@ Wir treffen uns im C-Hub zu Open Space Sessions, einer Keynote und einem entspan
 ---
 
 ## Variante B – Mit Einladung zum Mitgestalten
+
+<img src="../assets/export/wud-ma-2026_save-the-date_linkedin_1080x1350.png" width="360" alt="Save the Date Post">
 
 Save the Date! 🗓️ Der World Usability Day Mannheim ist zurück.
 
@@ -45,6 +49,8 @@ Wir freuen uns auf euch!
 ---
 
 ## Variante C – Persönlich (aus Sicht einer Organisatorin / eines Organisators)
+
+<img src="../assets/export/wud-ma-2026_save-the-date_linkedin_1080x1350.png" width="360" alt="Save the Date Post">
 
 Ich freue mich riesig: Am 12. November organisieren wir wieder den World Usability Day in Mannheim! 🌍
 

@@ -18,6 +18,8 @@ Versandplan mit Terminen: [`newsletter/README.md`](newsletter/README.md)
 | [06-danke-nach-dem-event.md](newsletter/06-danke-nach-dem-event.md) | *Vorschlag:* Danke-Mail mit Fotos, Session-Doku, Feedback |
 
 ### ✍️ Marketing-Texte → [`marketing-texte/`](marketing-texte/)
+👉 **[Post-Übersicht mit Bildern](marketing-texte/README.md)**
+
 | Datei | Inhalt |
 |---|---|
 | [event-vorstellung.md](marketing-texte/event-vorstellung.md) | Event-Beschreibung in XS/S/M/L + fertige Social-Posts |
@@ -31,6 +33,11 @@ Versandplan mit Terminen: [`newsletter/README.md`](newsletter/README.md)
 | [was-sind-open-spaces.md](website/was-sind-open-spaces.md) | Unterseite „Was sind Open Spaces?“: Ablauf, die drei Session-Formate mit Beispielen, Session-Dauer, Spielregeln, FAQ, SEO-Texte |
 
 ### 🎨 Grafiken → [`assets/export/`](assets/export/)
+
+<img src="assets/export/wud-ma-2026_save-the-date_linkedin_1080x1350.png" width="200" alt="Save the Date"> <img src="assets/export/wud-ma-2026_session-card_linkedin_1080x1350.png" width="200" alt="Was pitchst du?"> <img src="assets/export/wud-ma-2026_profilbild_rot_1080x1080.png" width="200" alt="Profilbild"> <img src="assets/export/wud-ma-2026_flyer_vorschau-1.png" width="176" alt="Flyer Vorderseite">
+
+<img src="assets/export/wud-ma-2026_banner_linkedin-event_1776x444.png" width="800" alt="Banner">
+
 | Datei | Format | Einsatz |
 |---|---|---|
 | `…_profilbild_rot_1080x1080.png` | 1080 × 1080 | Profilbild (LinkedIn-Seite, Meetup, Slack) – funktioniert auch rund |

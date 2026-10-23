@@ -104,6 +104,8 @@ Im Prinzip ja – nur kleiner, an einem Nachmittag und mit der UX-Community aus 
 
 ## Social-Post: Open Space erklärt (LinkedIn, Carousel- oder Text-Post)
 
+<img src="../assets/export/wud-ma-2026_session-card_linkedin_1080x1350.png" width="360" alt="Was pitchst du? Session Card">
+
 Was ist eigentlich „Open Space“? 🤔
 
 Beim World Usability Day Mannheim am 12.11. gibt es kein festes Programm – und keine Zuschauer:innen, nur Teilnehmende. So funktioniert’s:

@@ -51,6 +51,8 @@ Der World Usability Day Mannheim ist eine Veranstaltung der shift52 GmbH, organi
 
 ### LinkedIn – Ankündigung (Organisator:innen-Profil)
 
+<img src="../assets/export/wud-ma-2026_save-the-date_linkedin_1080x1350.png" width="360" alt="Save the Date Post">
+
 🌍 Am 12. November ist World Usability Day – und Mannheim ist dabei!
 
 Wir laden die UX-Community der Rhein-Neckar-Region in den C-Hub ein. Das Besondere: Ihr bestimmt das Programm. Im Open-Space-Format pitcht jede:r, die oder der möchte, eine Session-Idee – ob Diskussion, Co-Creation oder Vortrag. Daraus bauen wir gemeinsam die Agenda.
@@ -72,9 +74,13 @@ Wen solltest du unbedingt mitbringen? Markier sie hier 👇
 
 ### LinkedIn – Repost-Text für Teilnehmende / Unterstützer:innen
 
+*Kein eigenes Bild – den Post des Orga-Accounts teilen (Repost mit Text).*
+
 Ich bin am 12.11. beim World Usability Day in Mannheim! 🙌 Open Space, also keine Frontalvorträge, sondern Themen aus der Community. Wer aus der Region ist auch dabei? Kostenlos, Anmeldung: https://wud-ma.de #WUDMannheim
 
 ### Instagram / Kurzformat
+
+<img src="../assets/export/wud-ma-2026_save-the-date_quadrat_1080x1080.png" width="360" alt="Save the Date quadratisch">
 
 Eure Themen. Eure Sessions. Euer World Usability Day. 🌍
 12.11. · C-Hub Mannheim · kostenlos
@@ -82,6 +88,8 @@ Link in Bio 👆
 #WUDMannheim #WorldUsabilityDay #UXDesign #Mannheim
 
 ### „Letzte Plätze“-Post (ca. 1 Woche vorher, falls noch Plätze frei)
+
+<img src="../assets/export/wud-ma-2026_save-the-date_quadrat_1080x1080.png" width="360" alt="Save the Date quadratisch">
 
 ⏳ Noch eine Woche bis zum World Usability Day Mannheim – und noch ein paar Plätze frei!
 

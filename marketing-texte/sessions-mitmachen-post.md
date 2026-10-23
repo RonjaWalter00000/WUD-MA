@@ -10,6 +10,10 @@
 
 ## Variante A – Mit den Themen von 2025 (Organisations-Account)
 
+<img src="../assets/export/wud-ma-2026_session-card_linkedin_1080x1350.png" width="360" alt="Was pitchst du? Session Card">
+
+*+ Bild 2 im Carousel: Foto vom Session Board 2025*
+
 📌 Was pitchst du beim World Usability Day Mannheim?
 
 So sah unser Session Board 2025 aus: neun Sessions, zwei Runden, drei Räume – und kein einziges Thema stand vorher fest. Alles kam aus der Community:
@@ -39,6 +43,8 @@ Welche Frage treibt dich im Job gerade um? Schreib sie in die Kommentare 👇 �
 
 ## Variante B – Persönlich (Ronja)
 
+<img src="../assets/export/wud-ma-2026_session-card_linkedin_1080x1350.png" width="360" alt="Was pitchst du? Session Card">
+
 Letztes Jahr habe ich beim World Usability Day Mannheim eine Session gepitcht – mit einer Frage, auf die ich selbst keine fertige Antwort hatte: *Was macht eine gute GenAI-Designerin aus? Welche Skills werden wichtiger, welche unwichtiger?*
 
 Genau das ist das Schöne am Open-Space-Format: Man muss nicht mit einem perfekten Vortrag kommen. Eine gute Frage reicht – den Rest macht der Raum voller Menschen, die sich mit genau solchen Themen beschäftigen.
@@ -55,6 +61,8 @@ Was wäre deine Frage? 👇
 ---
 
 ## Variante C – Kurz (als Erinnerung, ca. 1 Woche vorher)
+
+<img src="../assets/export/wud-ma-2026_session-card_linkedin_1080x1350.png" width="360" alt="Was pitchst du? Session Card">
 
 Nächste Woche ist das Session Board noch leer. 📌
 
