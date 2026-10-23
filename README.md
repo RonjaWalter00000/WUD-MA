@@ -25,6 +25,11 @@ Versandplan mit Terminen: [`newsletter/README.md`](newsletter/README.md)
 | [save-the-date-linkedin-post.md](marketing-texte/save-the-date-linkedin-post.md) | 3 Post-Texte zum Save-the-Date-Bild |
 | [sessions-mitmachen-post.md](marketing-texte/sessions-mitmachen-post.md) | „Was pitchst du?“ – 3 Post-Texte, die zum Mitmachen in den Sessions motivieren |
 
+### 🌐 Website → [`website/`](website/)
+| Datei | Inhalt |
+|---|---|
+| [was-sind-open-spaces.md](website/was-sind-open-spaces.md) | Unterseite „Was sind Open Spaces?“: Ablauf, die drei Session-Formate mit Beispielen, Session-Dauer, Spielregeln, FAQ, SEO-Texte |
+
 ### 🎨 Grafiken → [`assets/export/`](assets/export/)
 | Datei | Format | Einsatz |
 |---|---|---|
