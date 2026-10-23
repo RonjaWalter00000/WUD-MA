@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Save the Date – Quadrat (1080×1080)</title>
+<link rel="stylesheet" href="brand.css">
+<style>
+  body { width: 1080px; height: 1080px; background: var(--white); position: relative; }
+  .board { position: absolute; left: 0; right: 0; top: 0; height: 560px; background: var(--grey); }
+  .logo { position: absolute; left: 72px; top: 64px; width: 400px; }
+
+  .std { width: 300px; height: 270px; left: 90px; top: 175px; font-size: 68px; transform: rotate(-6deg); }
+  .t1 { width: 200px; height: 180px; left: 520px; top: 130px; font-size: 34px; transform: rotate(4deg); }
+  .t2 { width: 200px; height: 180px; left: 790px; top: 170px; font-size: 34px; transform: rotate(-4deg); }
+  .t3 { width: 200px; height: 180px; left: 650px; top: 345px; font-size: 34px; transform: rotate(-3deg); }
+  .arrow { position: absolute; left: 0; top: 0; width: 1080px; height: 560px; }
+
+  .date { position: absolute; left: 66px; top: 590px; font-size: 160px; color: var(--red); font-weight: 600; }
+  .title { position: absolute; left: 74px; top: 768px; font-size: 56px; color: var(--navy); font-weight: 600; }
+  .meta { position: absolute; left: 76px; top: 846px; font-size: 30px; line-height: 1.45; font-weight: 500; }
+  .meta b { font-weight: 800; }
+  .cta { position: absolute; right: 72px; bottom: 64px; font-size: 30px; padding: 20px 36px; }
+</style>
+</head>
+<body>
+  <div class="board"></div>
+  <img class="logo" src="img/wud-logo.png" alt="World Usability Day">
+
+  <svg class="arrow" viewBox="0 0 1080 560" aria-hidden="true">
+    <path d="M405 270 C 440 230, 470 225, 505 232" stroke-width="6" stroke-dasharray="14 13"/>
+    <polyline class="tip" points="486,214 507,232 485,248" stroke-width="6"/>
+    <path d="M405 360 C 470 430, 560 450, 630 440" stroke-width="6" stroke-dasharray="14 13"/>
+    <polyline class="tip" points="610,422 632,440 610,456" stroke-width="6"/>
+  </svg>
+
+  <div class="sticky std">Save the Date!</div>
+  <div class="sticky t1">Open Space Sessions</div>
+  <div class="sticky t2">Keynote</div>
+  <div class="sticky dashed t3">Deine Session?</div>
+
+  <div class="head date">12.11.2026</div>
+  <div class="head title">World Usability Day Mannheim</div>
+  <div class="meta"><b>Donnerstag, 14–19 Uhr</b> · inkl. Get Together<br>C-Hub Mannheim, Hafenstraße 25</div>
+  <div class="pill cta">Kostenlos anmelden: wud-ma.de →</div>
+</body>
+</html>

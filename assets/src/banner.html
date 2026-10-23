@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Banner 4:1 (1584×396 · 1776×444 · 1200×300)</title>
+<link rel="stylesheet" href="brand.css">
+<style>
+  /* Ein Layout für alle 4:1-Formate: alle Maße in vw, skaliert mit der Breite.
+     Variante #gespiegelt: Post-its links, Text rechts – für das LinkedIn-PROFILbanner,
+     bei dem das runde Profilfoto die linke untere Ecke überdeckt. */
+  html, body { width: 100vw; height: 25vw; }
+  body { background: var(--white); position: relative; }
+  .board { position: absolute; top: 0; bottom: 0; right: 0; width: 46vw; background: var(--grey); }
+  .notes { position: absolute; top: 0; bottom: 0; right: 0; width: 46vw; }
+
+  .text { position: absolute; left: 5.2vw; top: 0; bottom: 0; display: flex; flex-direction: column; justify-content: center; }
+  .logo { width: 19vw; display: block; margin-bottom: 1.5vw; }
+  .title { font-size: 4.6vw; color: var(--red); font-weight: 600; }
+  .meta { margin-top: 1.3vw; font-size: 1.6vw; font-weight: 500; line-height: 1.5; }
+  .meta b { font-weight: 800; }
+  .meta .url { color: var(--red); font-weight: 800; }
+
+  .sticky { width: 10.4vw; height: 9.4vw; font-size: 1.75vw; padding: .6vw; }
+  .s1 { left: 4vw;    top: 2.4vw;  transform: rotate(-4deg); }
+  .s2 { left: 17.2vw; top: 1.6vw;  transform: rotate(3deg); }
+  .s3 { left: 30.4vw; top: 2.8vw;  transform: rotate(-2deg); }
+  .s4 { left: 9.5vw;  top: 13.4vw; transform: rotate(3deg); }
+  .s5 { left: 27vw;   top: 13.6vw; transform: rotate(-3deg); }
+  .sticky.dashed { border-width: .17vw; }
+  .arrow { position: absolute; left: 0; top: 0; width: 46vw; height: 25vw; }
+
+  body.flip .board, body.flip .notes { right: auto; left: 0; }
+  body.flip .text { left: auto; right: 5.2vw; align-items: flex-end; text-align: right; }
+</style>
+</head>
+<body>
+  <div class="board"></div>
+
+  <div class="text">
+    <img class="logo" src="img/wud-logo.png" alt="World Usability Day">
+    <div class="head title">World Usability Day<br>Mannheim 2026</div>
+    <div class="meta"><b>Do, 12. November · 14–19 Uhr</b> · C-Hub Mannheim<br>Open Space · Keynote · Get Together · <span class="url">wud-ma.de</span></div>
+  </div>
+
+  <div class="notes">
+    <svg class="arrow" viewBox="0 0 460 250" aria-hidden="true">
+      <path d="M210 182 C 232 206, 250 210, 262 196" stroke-width="2.4" stroke-dasharray="6 5"/>
+      <polyline class="tip" points="252,193 263,195 263,184" stroke-width="2.4"/>
+    </svg>
+    <div class="sticky s1">Measuring<br>the ROI<br>of UX</div>
+    <div class="sticky s2">Chancen von Figma Make</div>
+    <div class="sticky s3">Accessibility</div>
+    <div class="sticky s4">DesignOps</div>
+    <div class="sticky dashed s5">Deine Session?</div>
+  </div>
+  <script>if (location.hash === "#gespiegelt") document.body.classList.add("flip");</script>
+</body>
+</html>

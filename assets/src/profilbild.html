@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Profilbild (1080×1080)</title>
+<link rel="stylesheet" href="brand.css">
+<style>
+  /* Funktioniert auch im runden Zuschnitt (LinkedIn, Slack, Meetup):
+     alles Wichtige liegt im inneren Kreis. Variante per #grau in der URL. */
+  body { width: 1080px; height: 1080px; background: var(--red); position: relative; }
+  body.grau { background: var(--grey); }
+  .note {
+    width: 640px; height: 600px; left: 220px; top: 225px;
+    transform: rotate(-5deg);
+    flex-direction: column; gap: 6px;
+    box-shadow: 0 40px 70px -30px rgba(0,4,39,.55), 0 6px 14px rgba(0,4,39,.18);
+  }
+  .note .wud { font-size: 230px; line-height: .9; letter-spacing: .01em; }
+  .note .city { font-size: 104px; line-height: 1; }
+  .note .year { font-size: 64px; color: var(--purple); line-height: 1; margin-top: 10px; }
+</style>
+</head>
+<body>
+  <div class="sticky note">
+    <div class="wud">WUD</div>
+    <div class="city">Mannheim</div>
+    <div class="year">2026</div>
+  </div>
+  <script>if (location.hash === "#grau") document.body.classList.add("grau");</script>
+</body>
+</html>

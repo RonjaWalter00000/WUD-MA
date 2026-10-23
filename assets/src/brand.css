@@ -1,0 +1,65 @@
+/* WUD Mannheim 2026 – Brand-Basis für alle Assets
+   Farben & Schriften aus dem CI von https://wud-ma.de
+   Headline-Schrift im CI: "Noway Round" (lizenzpflichtig, nicht im Repo).
+   Ist sie lokal installiert, wird sie automatisch verwendet – sonst Nunito als Ersatz. */
+
+@font-face { font-family: "Nunito"; font-weight: 400; src: url(fonts/nunito-latin-400-normal.woff2) format("woff2"); }
+@font-face { font-family: "Nunito"; font-weight: 600; src: url(fonts/nunito-latin-600-normal.woff2) format("woff2"); }
+@font-face { font-family: "Nunito"; font-weight: 700; src: url(fonts/nunito-latin-700-normal.woff2) format("woff2"); }
+@font-face { font-family: "Nunito"; font-weight: 800; src: url(fonts/nunito-latin-800-normal.woff2) format("woff2"); }
+@font-face { font-family: "Plus Jakarta Sans"; font-weight: 400; src: url(fonts/plus-jakarta-sans-latin-400-normal.woff2) format("woff2"); }
+@font-face { font-family: "Plus Jakarta Sans"; font-weight: 500; src: url(fonts/plus-jakarta-sans-latin-500-normal.woff2) format("woff2"); }
+@font-face { font-family: "Plus Jakarta Sans"; font-weight: 700; src: url(fonts/plus-jakarta-sans-latin-700-normal.woff2) format("woff2"); }
+@font-face { font-family: "Plus Jakarta Sans"; font-weight: 800; src: url(fonts/plus-jakarta-sans-latin-800-normal.woff2) format("woff2"); }
+@font-face { font-family: "Kalam"; font-weight: 700; src: url(fonts/kalam-latin-700-normal.woff2) format("woff2"); }
+
+:root {
+  --red: #D13327;      /* Headlines, Buttons */
+  --navy: #000427;     /* Primärfarbe, Text */
+  --cream: #EBE8E0;    /* Sekundärfarbe, Flächen */
+  --grey: #F0F0F0;     /* Sektionshintergrund */
+  --teal: #40C0CB;     /* Akzent (Logo) */
+  --green: #80BD42;    /* Akzent (Logo) */
+  --lime: #D6FB86;     /* Post-its (Illustrationen) */
+  --purple: #7046F8;   /* Pfeile (Illustrationen) */
+  --white: #FFFFFF;
+
+  --font-head: "Noway Round", "Nunito", sans-serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+  --font-hand: "Kalam", cursive;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { -webkit-font-smoothing: antialiased; }
+body { font-family: var(--font-body); color: var(--navy); overflow: hidden; }
+
+.head { font-family: var(--font-head); font-weight: 600; letter-spacing: -0.015em; line-height: 1.05; }
+.red { color: var(--red); }
+
+/* Post-it */
+.sticky {
+  position: absolute;
+  background: var(--lime);
+  font-family: var(--font-hand);
+  font-weight: 700;
+  color: #111;
+  line-height: 1.05;
+  display: flex; align-items: center; justify-content: center; text-align: center;
+  box-shadow: 0 0.6em 1.2em -0.5em rgba(0,4,39,.35), 0 0.1em 0.2em rgba(0,4,39,.12);
+}
+.sticky::after { /* leichter Knick unten */
+  content: ""; position: absolute; inset: auto 0 0 0; height: 18%;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(0,0,0,.05));
+}
+.sticky.dashed { background: transparent; box-shadow: none; border: 0.09em dashed var(--purple); color: var(--purple); }
+.sticky.dashed::after { display: none; }
+
+/* Button / Pille */
+.pill {
+  display: inline-flex; align-items: center; gap: .5em;
+  background: var(--red); color: #fff; border-radius: 999px;
+  font-family: var(--font-body); font-weight: 700;
+}
+
+.arrow path { fill: none; stroke: var(--purple); stroke-linecap: round; }
+.arrow .tip { fill: none; stroke: var(--purple); stroke-linecap: round; stroke-linejoin: round; }

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Flyer DIN A5 – mit 3 mm Beschnitt</title>
+<link rel="stylesheet" href="brand.css">
+<style>
+  /* Endformat DIN A5 (148 × 210 mm) + 3 mm Beschnitt rundum = 154 × 216 mm.
+     Wichtige Inhalte mind. 5 mm vom Endformat entfernt (also 8 mm vom Seitenrand). */
+  @page { size: 154mm 216mm; margin: 0; }
+  html, body { overflow: visible; }
+  body { width: 154mm; background: #888; }
+  .page { width: 154mm; height: 216mm; position: relative; overflow: hidden; background: var(--white); page-break-after: always; break-after: page; }
+  .page:last-child { page-break-after: auto; break-after: auto; }
+  .safe { position: absolute; inset: 15mm 15mm 15mm 15mm; }
+
+  /* ---------- Vorderseite ---------- */
+  .front .board { position: absolute; left: 0; right: 0; top: 0; height: 112mm; background: var(--grey); }
+  .front .logo { position: absolute; left: 15mm; top: 15mm; width: 62mm; }
+  .front .sticky { font-size: 7mm; padding: 2mm; }
+  .front .std { width: 50mm; height: 45mm; left: 16mm; top: 37mm; font-size: 11.5mm; transform: rotate(-6deg); }
+  .front .n1 { width: 34mm; height: 31mm; left: 78mm; top: 30mm; transform: rotate(4deg); font-size: 5.6mm; }
+  .front .n2 { width: 34mm; height: 31mm; left: 104mm; top: 52mm; transform: rotate(-4deg); font-size: 5.6mm; }
+  .front .n3 { width: 34mm; height: 31mm; left: 75mm; top: 72mm; transform: rotate(-3deg); font-size: 5.6mm; }
+  .front .n3.dashed { border-width: .55mm; }
+  .front .arrow { position: absolute; left: 0; top: 0; width: 154mm; height: 112mm; }
+
+  .front .date { position: absolute; left: 14mm; top: 121mm; font-size: 23.5mm; color: var(--red); font-weight: 600; }
+  .front .title { position: absolute; left: 15mm; top: 148mm; font-size: 9.6mm; font-weight: 600; color: var(--navy); }
+  .front .meta { position: absolute; left: 15.3mm; top: 172mm; font-size: 4.3mm; line-height: 1.5; font-weight: 500; }
+  .front .meta b { font-weight: 800; }
+  .front .badge { position: absolute; right: 15mm; top: 170mm; width: 29mm; height: 29mm; border-radius: 50%; background: var(--red); color: #fff;
+                  display: flex; align-items: center; justify-content: center; text-align: center; transform: rotate(8deg);
+                  font-family: var(--font-head); font-weight: 700; font-size: 4.2mm; line-height: 1.12; }
+
+  /* ---------- Rückseite ---------- */
+  .back h2 { font-family: var(--font-head); font-weight: 600; color: var(--red); font-size: 8.2mm; line-height: 1.05; letter-spacing: -.01em; }
+  .back .lead { margin-top: 3mm; font-size: 3.5mm; line-height: 1.5; }
+  .steps { margin-top: 5mm; display: grid; grid-template-columns: 1fr 1fr; gap: 4mm 5mm; }
+  .step { display: flex; gap: 3mm; align-items: flex-start; }
+  .step .num { flex: none; width: 10mm; height: 10mm; background: var(--lime); font-family: var(--font-hand); font-weight: 700; font-size: 6mm;
+               display: flex; align-items: center; justify-content: center; transform: rotate(-4deg);
+               box-shadow: 0 1.2mm 2mm -1mm rgba(0,4,39,.35); }
+  .step h3 { font-family: var(--font-body); font-size: 3.5mm; font-weight: 800; margin-bottom: .8mm; }
+  .step p { font-size: 3mm; line-height: 1.45; }
+
+  .row { display: grid; grid-template-columns: 1.05fr 1fr; gap: 6mm; margin-top: 8mm; }
+  .back h4 { font-family: var(--font-head); font-weight: 600; color: var(--red); font-size: 5.4mm; margin-bottom: 2.2mm; }
+  .agenda { font-size: 3.15mm; line-height: 1.35; border-collapse: collapse; width: 100%; }
+  .agenda td { padding: 1mm 0; border-bottom: .25mm solid #ddd; vertical-align: top; }
+  .agenda td:first-child { font-weight: 800; white-space: nowrap; padding-right: 3mm; }
+  .loc p { font-size: 3.1mm; line-height: 1.5; }
+  .loc p + p { margin-top: 1.8mm; }
+
+  .foot { position: absolute; left: 15mm; right: 15mm; bottom: 15mm; display: flex; align-items: center; gap: 5mm;
+          background: var(--grey); border-radius: 4mm; padding: 4.5mm 5mm; }
+  .foot .qr { width: 24mm; height: 24mm; background: #fff; padding: 1.6mm; border-radius: 1.5mm; flex: none; }
+  .foot .qr img { width: 100%; height: 100%; display: block; }
+  .foot .cta { font-family: var(--font-head); font-weight: 600; font-size: 6.4mm; color: var(--navy); line-height: 1.1; }
+  .foot .cta span { color: var(--red); }
+  .foot .small { font-size: 2.7mm; line-height: 1.45; margin-top: 1.5mm; color: #333; }
+</style>
+</head>
+<body>
+
+<!-- VORDERSEITE -->
+<section class="page front">
+  <div class="board"></div>
+  <img class="logo" src="img/wud-logo.png" alt="World Usability Day">
+  <svg class="arrow" viewBox="0 0 154 112" aria-hidden="true">
+    <path d="M68 52 C 72 44, 75 42, 80 43" stroke-width=".9" stroke-dasharray="2.2 2"/>
+    <polyline class="tip" points="77,40.6 80.5,43 77.4,45.8" stroke-width=".9"/>
+    <path d="M66 70 C 70 80, 72 84, 76 86" stroke-width=".9" stroke-dasharray="2.2 2"/>
+    <polyline class="tip" points="72.6,85.6 76.4,86.2 74.8,82.6" stroke-width=".9"/>
+  </svg>
+  <div class="sticky std">Save the Date!</div>
+  <div class="sticky n1">Open Space Sessions</div>
+  <div class="sticky n2">Keynote</div>
+  <div class="sticky dashed n3">Deine Session?</div>
+
+  <div class="head date">12.11.2026</div>
+  <div class="head title">World Usability Day<br>Mannheim</div>
+  <div class="meta"><b>Donnerstag, 14–19 Uhr</b><br>C-Hub Mannheim<br>Hafenstraße 25, 68159 Mannheim</div>
+  <div class="badge">kostenlos<br>&amp; offen<br>für alle</div>
+</section>
+
+<!-- RÜCKSEITE -->
+<section class="page back">
+  <div class="safe">
+    <h2>Eure Themen.<br>Eure Sessions.</h2>
+    <p class="lead">Beim World Usability Day Mannheim gibt es kein festes Programm. Im <b>Open Space</b> bringen alle ihre Fragen, Ideen und Erfahrungen mit – und gestalten die Agenda gemeinsam.</p>
+
+    <div class="steps">
+      <div class="step"><div class="num">1</div><div><h3>Session pitchen</h3><p>Workshop, Diskussion oder Case Study – stell deine Idee in 1–2 Minuten vor.</p></div></div>
+      <div class="step"><div class="num">2</div><div><h3>Gemeinsam planen</h3><p>Die Gruppe entscheidet, welche Sessions wann und wo stattfinden.</p></div></div>
+      <div class="step"><div class="num">3</div><div><h3>Du entscheidest</h3><p>Wähle frei, wo du mitmachst – und wechsle, wann immer du willst.</p></div></div>
+      <div class="step"><div class="num">4</div><div><h3>Mitten drin</h3><p>Keine Zuschauer:innen: Alle diskutieren mit und lernen voneinander.</p></div></div>
+    </div>
+
+    <div class="row">
+      <div>
+        <h4>Programm</h4>
+        <table class="agenda">
+          <tr><td>14:00</td><td>Einlass &amp; Ankommen</td></tr>
+          <tr><td>15:00</td><td>Session Planning &amp; Pitches</td></tr>
+          <tr><td>15:30</td><td>Keynote &amp; Opening</td></tr>
+          <tr><td>16:00</td><td>Session-Runde 1</td></tr>
+          <tr><td>17:00</td><td>Session-Runde 2</td></tr>
+          <tr><td>ab 18:00</td><td>Get Together</td></tr>
+        </table>
+      </div>
+      <div class="loc">
+        <h4>Anfahrt</h4>
+        <p><b>C-Hub Mannheim</b><br>Hafenstraße 25<br>68159 Mannheim (Jungbusch)</p>
+        <p><b>Bus</b> RNV 60/61 „Teufelsbrücke“<br><b>Tram</b> „Dalbergstraße“ (6 Min.)</p>
+        <p><b>Parken</b> am Musikpark (6 Min. zu Fuß)</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <div class="qr"><img src="img/qr-anmeldung.svg" alt="QR-Code zur Anmeldung"></div>
+    <div>
+      <div class="cta">Jetzt kostenlos anmelden:<br><span>wud-ma.de</span></div>
+      <div class="small">Die Plätze sind begrenzt. Fragen? info@wud-ma.de<br>Eine Veranstaltung der shift52 GmbH</div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
