@@ -33,15 +33,17 @@ Donnerstag, 12. November 2026, 14:00–19:00 Uhr (danach gemütlicher Ausklang)
 - ab 18:00 – Get Together mit Bier, Snacks und guten Gesprächen
 
 **🎤 Tipp: Bereite deinen Pitch vor**
-Das Herzstück des Tages sind die Sessions, die ihr selbst einbringt. Ein Pitch dauert nur 1–2 Minuten und braucht keine Folien. Diese drei Fragen helfen:
+Das Herzstück des Tages sind die Sessions, die ihr selbst einbringt – ob kurzer Input-Talk, Workshop oder Gruppendiskussion. Ein Pitch dauert nur 1–2 Minuten, drei Sätze reichen:
 
 1. **Worum geht’s?** Ein Thema, eine Frage oder ein Projekt in einem Satz.
-2. **Was ist das Format?** Diskussion, Mini-Workshop, Case Study, Erfahrungsaustausch …
+2. **Was nehmen die anderen mit?** Eine Methode, neue Perspektiven, gemeinsam erarbeitete Lösungen …
 3. **Für wen ist es spannend?** Einsteiger:innen, Researcher, alle, die mit Stakeholdern ringen …
 
-Beispiel: *„Ich möchte mit euch diskutieren, wie wir den Wert von UX gegenüber dem Management messbar machen. Ich bringe zwei Ansätze aus meinem Team mit und bin gespannt auf eure Erfahrungen.“*
+Beispiel: *„Ich möchte mit euch diskutieren, wie wir den Wert von UX gegenüber dem Management messbar machen. Ich bringe zwei Ansätze aus meinem Team mit, und gemeinsam sammeln wir, was bei euch funktioniert. Spannend für alle, die regelmäßig für UX-Budget kämpfen.“*
 
-Du willst lieber zuhören? Auch super – im Open Space bist du so oder so mittendrin.
+Tipp: Plane lieber einen kurzen Input und viel Zeit fürs Gespräch ein als einen langen Vortrag.
+
+Du möchtest keine eigene Session halten? Völlig okay. Bei uns gibt es keine Zuschauer:innen, nur Teilnehmende – und mitmachen heißt auch: Fragen stellen, mitdiskutieren, Erfahrungen teilen.
 
 **📍 Anfahrt**
 C-Hub Mannheim, Hafenstraße 25, 68159 Mannheim ([Google Maps](https://share.google/svfpQJBZSHFho8zQk))
