@@ -39,10 +39,9 @@ Das Spannende daran: Viele dieser Sessions haben nicht mit einer fertigen Antwor
 **So einfach geht’s**
 Vor Ort bekommst du eine **Session Card**. Darauf schreibst du dein Thema, deinen Namen – und kreuzt an, was du vorhast:
 
-- ☐ **Frage klären** – Du hast eine Frage aus deinem Alltag und holst dir Antworten aus der Runde.
-- ☐ **Diskussion führen** – Du bringst ein Thema mit, zu dem du Meinungen und Erfahrungen sammeln willst.
-- ☐ **Impulsvortrag** – Du teilst ein Projekt, eine Methode oder eine Erkenntnis in einem kurzen Input.
+- ☐ **Diskussion** – Du bringst ein Thema oder eine offene Frage mit und sammelst Meinungen und Erfahrungen aus der Runde.
 - ☐ **Co-Creation** – Ihr erarbeitet gemeinsam etwas: ein Konzept, eine Checkliste, eine Lösungsskizze.
+- ☐ **Vortrag** – Du teilst ein Projekt, eine Methode oder eine Erkenntnis in einem kurzen Input – danach wird diskutiert.
 
 Mehrere Kreuze? Kein Problem. Dann stellst du deine Idee in 1–2 Minuten vor, die Karte kommt aufs Board und bekommt einen Raum und eine Uhrzeit. Fertig.
 

@@ -24,7 +24,7 @@ So sah unser Session Board 2025 aus: neun Sessions, zwei Runden, drei Räume –
 
 Am 12. November ist das Board wieder leer. Und das ist deine Chance.
 
-So funktioniert’s: Du füllst eine Session Card aus und kreuzt an, was du vorhast – Frage klären, Diskussion führen, Impulsvortrag oder Co-Creation. Dann stellst du deine Idee in 1–2 Minuten vor. Fertig.
+So funktioniert’s: Du füllst eine Session Card aus und kreuzt an, was du vorhast – Diskussion, Co-Creation oder Vortrag. Dann stellst du deine Idee in 1–2 Minuten vor. Fertig.
 
 Du brauchst keine Folien und keinen Expertenstatus. Viele der besten Sessions beginnen mit einer ehrlichen Frage.
 
@@ -43,7 +43,7 @@ Letztes Jahr habe ich beim World Usability Day Mannheim eine Session gepitcht �
 
 Genau das ist das Schöne am Open-Space-Format: Man muss nicht mit einem perfekten Vortrag kommen. Eine gute Frage reicht – den Rest macht der Raum voller Menschen, die sich mit genau solchen Themen beschäftigen.
 
-Am 12. November ist es wieder so weit. Auf der Session Card kannst du ankreuzen, was du vorhast: Frage klären, Diskussion führen, Impulsvortrag oder Co-Creation. 1–2 Minuten Pitch – und deine Session steht im Programm.
+Am 12. November ist es wieder so weit. Auf der Session Card kannst du ankreuzen, was du vorhast: Diskussion, Co-Creation oder Vortrag. 1–2 Minuten Pitch – und deine Session steht im Programm.
 
 Was wäre deine Frage? 👇
 
@@ -58,7 +58,7 @@ Was wäre deine Frage? 👇
 
 Nächste Woche ist das Session Board noch leer. 📌
 
-Beim World Usability Day Mannheim gestaltet ihr das Programm – mit einer Session Card und einem 1–2-Minuten-Pitch. Frage klären, Diskussion führen, Impulsvortrag oder Co-Creation: Alles ist willkommen.
+Beim World Usability Day Mannheim gestaltet ihr das Programm – mit einer Session Card und einem 1–2-Minuten-Pitch. Diskussion, Co-Creation oder Vortrag: Alles ist willkommen.
 
 Keine eigene Session? Auch gut. Bei uns gibt es keine Zuschauer:innen, nur Teilnehmende – mitdiskutieren zählt genauso.
 
