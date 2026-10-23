@@ -20,8 +20,7 @@
   --grey: #F0F0F0;     /* Sektionshintergrund */
   --teal: #40C0CB;     /* Akzent (Logo) */
   --green: #80BD42;    /* Akzent (Logo) */
-  --lime: #D6FB86;     /* Post-its (Illustrationen) */
-  --purple: #7046F8;   /* Pfeile (Illustrationen) */
+  --note: #EBE8E0;     /* Post-its = CI-Sekundärfarbe Creme */
   --white: #FFFFFF;
 
   --font-head: "Noway Round", "Nunito", sans-serif;
@@ -39,10 +38,10 @@ body { font-family: var(--font-body); color: var(--navy); overflow: hidden; }
 /* Post-it */
 .sticky {
   position: absolute;
-  background: var(--lime);
+  background: var(--note);
   font-family: var(--font-hand);
   font-weight: 700;
-  color: #111;
+  color: var(--navy);
   line-height: 1.05;
   display: flex; align-items: center; justify-content: center; text-align: center;
   box-shadow: 0 0.6em 1.2em -0.5em rgba(0,4,39,.35), 0 0.1em 0.2em rgba(0,4,39,.12);
@@ -51,7 +50,7 @@ body { font-family: var(--font-body); color: var(--navy); overflow: hidden; }
   content: ""; position: absolute; inset: auto 0 0 0; height: 18%;
   background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(0,0,0,.05));
 }
-.sticky.dashed { background: transparent; box-shadow: none; border: 0.09em dashed var(--purple); color: var(--purple); }
+.sticky.dashed { background: transparent; box-shadow: none; border: 0.09em dashed var(--red); color: var(--red); }
 .sticky.dashed::after { display: none; }
 
 /* Button / Pille */
@@ -61,5 +60,5 @@ body { font-family: var(--font-body); color: var(--navy); overflow: hidden; }
   font-family: var(--font-body); font-weight: 700;
 }
 
-.arrow path { fill: none; stroke: var(--purple); stroke-linecap: round; }
-.arrow .tip { fill: none; stroke: var(--purple); stroke-linecap: round; stroke-linejoin: round; }
+.arrow path { fill: none; stroke: var(--red); stroke-linecap: round; }
+.arrow .tip { fill: none; stroke: var(--red); stroke-linecap: round; stroke-linejoin: round; }

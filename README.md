@@ -45,8 +45,8 @@ Außerdem: [`assets/kalender/wud-mannheim-2026.ics`](assets/kalender/wud-mannhei
 | Headlines, Buttons | `#D13327` Rot |
 | Text, Primär | `#000427` Navy |
 | Flächen | `#F0F0F0` Hellgrau · `#EBE8E0` Creme |
-| Post-its (aus den Website-Illustrationen) | `#D6FB86` Lime |
-| Pfeile (aus den Website-Illustrationen) | `#7046F8` Lila |
+| Post-its | `#EBE8E0` Creme (CI-Sekundärfarbe) |
+| Pfeile, gestrichelte „Deine Session?“-Karte | `#D13327` Rot |
 | Logo-Akzente | `#40C0CB` Türkis · `#80BD42` Grün |
 
 **Schriften:** Headlines im CI = *Noway Round* · Fließtext = *Plus Jakarta Sans* · Post-its = *Kalam* (Handschrift)
