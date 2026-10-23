@@ -33,7 +33,7 @@ Donnerstag, 12. November 2026, 14:00–19:00 Uhr (danach gemütlicher Ausklang)
 - ab 18:00 – Get Together mit Bier, Snacks und guten Gesprächen
 
 **🎤 Tipp: Bereite deinen Pitch vor**
-Das Herzstück des Tages sind die Sessions, die ihr selbst einbringt – ob kurzer Input-Talk, Workshop oder Gruppendiskussion. Ein Pitch dauert nur 1–2 Minuten, drei Sätze reichen:
+Das Herzstück des Tages sind die Sessions, die ihr selbst einbringt – ob du eine Frage klären, eine Diskussion führen, einen Impulsvortrag halten oder gemeinsam etwas erarbeiten willst (Co-Creation). Ein Pitch dauert nur 1–2 Minuten, drei Sätze reichen:
 
 1. **Worum geht’s?** Ein Thema, eine Frage oder ein Projekt in einem Satz.
 2. **Was nehmen die anderen mit?** Eine Methode, neue Perspektiven, gemeinsam erarbeitete Lösungen …

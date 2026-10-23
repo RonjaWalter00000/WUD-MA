@@ -12,9 +12,10 @@ Versandplan mit Terminen: [`newsletter/README.md`](newsletter/README.md)
 |---|---|
 | [01-angemeldete-weitersagen.md](newsletter/01-angemeldete-weitersagen.md) | An Angemeldete: Leute mitbringen, Session-Idee mitbringen |
 | [02-reaktivierung-vorjahr.md](newsletter/02-reaktivierung-vorjahr.md) | An Angemeldete 2025 – inkl. optionaler Nachfass-Mail |
-| [03-reminder-1-woche.md](newsletter/03-reminder-1-woche.md) | Reminder 1 Woche vorher, mit Pitch-Tipps und Anfahrt |
-| [04-reminder-1-tag.md](newsletter/04-reminder-1-tag.md) | Reminder 1 Tag vorher, kurz & praktisch |
-| [05-danke-nach-dem-event.md](newsletter/05-danke-nach-dem-event.md) | *Vorschlag:* Danke-Mail mit Fotos, Session-Doku, Feedback |
+| [03-sessions-mitmachen.md](newsletter/03-sessions-mitmachen.md) | Motivation für die Sessions: Themen 2025, Session Card, Pitch in 3 Sätzen |
+| [04-reminder-1-woche.md](newsletter/04-reminder-1-woche.md) | Reminder 1 Woche vorher, mit Pitch-Tipps und Anfahrt |
+| [05-reminder-1-tag.md](newsletter/05-reminder-1-tag.md) | Reminder 1 Tag vorher, kurz & praktisch |
+| [06-danke-nach-dem-event.md](newsletter/06-danke-nach-dem-event.md) | *Vorschlag:* Danke-Mail mit Fotos, Session-Doku, Feedback |
 
 ### ✍️ Marketing-Texte → [`marketing-texte/`](marketing-texte/)
 | Datei | Inhalt |
@@ -22,6 +23,7 @@ Versandplan mit Terminen: [`newsletter/README.md`](newsletter/README.md)
 | [event-vorstellung.md](marketing-texte/event-vorstellung.md) | Event-Beschreibung in XS/S/M/L + fertige Social-Posts |
 | [open-space-format.md](marketing-texte/open-space-format.md) | Open Space erklärt in XS/S/M/L + FAQ-Bausteine + Social-Post |
 | [save-the-date-linkedin-post.md](marketing-texte/save-the-date-linkedin-post.md) | 3 Post-Texte zum Save-the-Date-Bild |
+| [sessions-mitmachen-post.md](marketing-texte/sessions-mitmachen-post.md) | „Was pitchst du?“ – 3 Post-Texte, die zum Mitmachen in den Sessions motivieren |
 
 ### 🎨 Grafiken → [`assets/export/`](assets/export/)
 | Datei | Format | Einsatz |
@@ -33,6 +35,7 @@ Versandplan mit Terminen: [`newsletter/README.md`](newsletter/README.md)
 | `…_banner_newsletter-header_1200x300(@2x).png` | 4 : 1 | Kopfbild für Newsletter / Website |
 | `…_save-the-date_linkedin_1080x1350.png` | 4 : 5 | Save-the-Date-Post (Hochformat, beste Feed-Präsenz) |
 | `…_save-the-date_quadrat_1080x1080.png` | 1 : 1 | Save-the-Date für Instagram & Co. |
+| `…_session-card_linkedin_1080x1350.png` | 4 : 5 | „Was pitchst du?“-Post im Stil der Session Cards |
 | `…_flyer_a5_mit-beschnitt.pdf` | DIN A5 + 3 mm | Druckbarer Flyer, Vorder- & Rückseite, QR-Code zur Anmeldung |
 | `…_flyer_vorschau-1/2.png` | | Vorschaubilder des Flyers |
 

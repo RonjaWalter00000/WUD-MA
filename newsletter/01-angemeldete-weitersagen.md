@@ -28,7 +28,7 @@ Unser Open Space wird umso besser, je unterschiedlicher die Leute sind, die zusa
 Die Teilnahme ist kostenlos, die Plätze sind aber begrenzt. Wer schnell ist, ist dabei.
 
 **Schon eine Session-Idee?**
-Beim WUD Mannheim gestaltet ihr das Programm selbst: Zu Beginn kann jede:r in 1–2 Minuten eine Session pitchen – als Workshop, Diskussion, Case Study oder einfach als offene Frage an die Runde. Du musst kein:e Expert:in sein. „Ich habe da ein Problem und würde gerne hören, wie ihr das löst“ ist ein großartiger Pitch.
+Beim WUD Mannheim gestaltet ihr das Programm selbst: Zu Beginn kann jede:r in 1–2 Minuten eine Session pitchen – ob du eine Frage klären, eine Diskussion führen, einen Impulsvortrag halten oder gemeinsam etwas erarbeiten willst (Co-Creation). Du musst kein:e Expert:in sein. „Ich habe da ein Problem und würde gerne hören, wie ihr das löst“ ist ein großartiger Pitch.
 
 Ein paar Themen, die schon im Raum stehen: Measuring the ROI of UX, Chancen von Figma Make, Accessibility, DesignOps … und was bewegt dich gerade?
 

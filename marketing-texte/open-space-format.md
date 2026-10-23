@@ -5,7 +5,7 @@ Kernbotschaft: **Beim WUD Mannheim gibt es keine Zuschauer:innen, nur Teilnehmen
 Drei Dinge, die in jeder Erklärung vorkommen sollten:
 1. **Ihr macht das Programm** – Sessions werden am Tag selbst gepitcht und geplant.
 2. **Mitmachen heißt nicht vortragen** – eine Session zu halten ist freiwillig; Fragen stellen, mitdiskutieren oder eine Session gemeinsam gestalten zählt genauso.
-3. **Jede Form ist willkommen** – Input-Talk, Workshop oder Gruppendiskussion.
+3. **Jede Form ist willkommen** – auf der Session Card kreuzt man an: Frage klären, Diskussion führen, Impulsvortrag oder Co-Creation.
 
 ---
 
@@ -18,12 +18,12 @@ Drei Dinge, die in jeder Erklärung vorkommen sollten:
 
 ## S – Kurztext (ca. 250 Zeichen)
 
-Beim WUD Mannheim gibt es kein vorgegebenes Programm. Wie bei einem Barcamp pitchen die Teilnehmenden zu Beginn ihre Sessions – Talk, Workshop oder Diskussion – und bauen daraus gemeinsam die Agenda. Du entscheidest, wo du mitmachst.
+Beim WUD Mannheim gibt es kein vorgegebenes Programm. Wie bei einem Barcamp pitchen die Teilnehmenden zu Beginn ihre Sessions – ob Frage, Diskussion, Impuls oder Co-Creation – und bauen daraus gemeinsam die Agenda. Du entscheidest, wo du mitmachst.
 
 ## M – Mittlerer Text (ca. 650 Zeichen)
 
 **So funktioniert Open Space**
-Der WUD Mannheim ist eine kleine Unconference: Das Programm steht nicht vorher fest, sondern entsteht am Tag selbst. Zu Beginn kann jede:r eine Session vorschlagen – einen kurzen Input-Talk, einen Workshop oder eine Gruppendiskussion – und sie in 1–2 Minuten pitchen. Die Vorschläge landen auf dem Session Board und werden auf Räume und Zeiten verteilt.
+Der WUD Mannheim ist eine kleine Unconference: Das Programm steht nicht vorher fest, sondern entsteht am Tag selbst. Zu Beginn kann jede:r eine Session vorschlagen – eine Frage klären, eine Diskussion führen, einen Impulsvortrag halten oder gemeinsam etwas erarbeiten – und sie in 1–2 Minuten pitchen. Dafür füllst du eine Session Card aus; die Karten landen auf dem Session Board und werden auf Räume und Zeiten verteilt.
 
 Danach wählst du frei, wo du mitmachst, und kannst jederzeit wechseln. Eine eigene Session ist kein Muss: Wer Fragen stellt, mitdiskutiert oder eine Session gemeinsam mit anderen gestaltet, ist genauso Teil des Programms.
 
@@ -35,15 +35,17 @@ Die meisten Konferenzen folgen demselben Muster: Bühne vorne, Publikum hinten, 
 
 **So läuft’s ab**
 
-1. **Session Pitches** – Nach der Begrüßung kann jede:r eine Session vorschlagen und in 1–2 Minuten vorstellen: Worum geht’s? Was nehmen die anderen mit? Und für wen ist es gedacht – Einsteiger:innen oder alte Hasen?
-2. **Gemeinsame Planung** – Die Vorschläge kommen aufs Session Board und werden Räumen und Zeiten zugeordnet.
+1. **Session Pitches** – Nach der Begrüßung kann jede:r eine Session Card ausfüllen und die Idee in 1–2 Minuten vorstellen: Worum geht’s? Was nehmen die anderen mit? Und für wen ist es gedacht – Einsteiger:innen oder alte Hasen?
+2. **Gemeinsame Planung** – Die Karten kommen aufs Session Board und werden Räumen und Zeiten zugeordnet.
 3. **Du entscheidest** – Du wählst frei, an welchen Sessions du teilnimmst. Wenn dich ein anderes Thema mehr reizt, wechselst du einfach.
 4. **Aktive Teilnahme** – Alle diskutieren mit, teilen Erfahrungen und lernen voneinander.
 
 **Welche Sessions es geben kann**
-- **Input-Talk:** Du stellst ein Projekt, eine Methode oder ein Framework vor – und lässt Zeit für Fragen.
-- **Workshop:** Ihr probiert gemeinsam eine Methode aus.
-- **Gruppendiskussion:** Du bringst ein Thema oder eine offene Frage mit, die Runde sucht gemeinsam nach Antworten.
+Auf der Session Card kreuzt du an, was du vorhast:
+- **Frage klären:** Du hast eine konkrete Frage aus deinem Alltag und holst dir Antworten aus der Runde.
+- **Diskussion führen:** Du bringst ein Thema mit und sammelst Meinungen und Erfahrungen.
+- **Impulsvortrag:** Du teilst ein Projekt, eine Methode oder eine Erkenntnis in einem kurzen Input – danach wird diskutiert.
+- **Co-Creation:** Ihr erarbeitet gemeinsam etwas, z. B. ein Konzept, eine Checkliste oder eine Lösungsskizze.
 
 **Die fünf Prinzipien**
 - Wer auch immer kommt, es sind die richtigen Leute.
@@ -91,7 +93,7 @@ Nein. Eine Session zu halten ist freiwillig. Teilnehmen heißt bei uns: Fragen s
 Kannst du nutzen, musst du aber nicht. Für die meisten Sessions reichen Flipchart, Post-its und gute Fragen.
 
 **Was für Sessions gibt es?**
-Input-Talks, Workshops und Gruppendiskussionen – oder eine Mischung daraus.
+Vier Formate stehen auf der Session Card: Frage klären, Diskussion führen, Impulsvortrag und Co-Creation – Mehrfachkreuze sind erlaubt.
 
 **Wie lange dauert eine Session?**
 Eine Session-Runde dauert bis zu einer Stunde. Wenn das Thema früher erschöpft ist, ist es vorbei – und das ist völlig okay.
@@ -112,7 +114,7 @@ Beim World Usability Day Mannheim am 12.11. gibt es kein festes Programm – und
 3️⃣ Du entscheidest, wo du mitmachst
 4️⃣ Passt nicht? Gesetz der zwei Füße – einfach wechseln
 
-Input-Talk, Workshop oder Diskussion – alles ist willkommen. Und wer keine eigene Session hat, bringt Fragen und Erfahrungen mit.
+Frage klären, Diskussion führen, Impulsvortrag oder Co-Creation – alles ist willkommen. Und wer keine eigene Session hat, bringt Fragen und Erfahrungen mit.
 
 Wer das UXcamp Europe kennt, weiß, wie viel Energie in so einem Format steckt. Jetzt gibt’s das als Nachmittag in Mannheim.
 

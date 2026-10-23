@@ -53,7 +53,7 @@ Der World Usability Day Mannheim ist eine Veranstaltung der shift52 GmbH, organi
 
 🌍 Am 12. November ist World Usability Day – und Mannheim ist dabei!
 
-Wir laden die UX-Community der Rhein-Neckar-Region in den C-Hub ein. Das Besondere: Ihr bestimmt das Programm. Im Open-Space-Format pitcht jede:r, die oder der möchte, eine Session-Idee – ob Diskussion, Mini-Workshop oder offene Frage. Daraus bauen wir gemeinsam die Agenda.
+Wir laden die UX-Community der Rhein-Neckar-Region in den C-Hub ein. Das Besondere: Ihr bestimmt das Programm. Im Open-Space-Format pitcht jede:r, die oder der möchte, eine Session-Idee – ob Frage, Diskussion, Impulsvortrag oder Co-Creation. Daraus bauen wir gemeinsam die Agenda.
 
 Was dich erwartet:
 → Keynote zu aktuellen UX-Trends
