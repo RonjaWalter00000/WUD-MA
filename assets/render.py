@@ -19,7 +19,7 @@ PNG_JOBS = [
     ("profilbild.html", "wud-ma-2026_profilbild_rot_1080x1080.png", 1080, 1080, 1),
     ("profilbild.html#grau", "wud-ma-2026_profilbild_grau_1080x1080.png", 1080, 1080, 1),
     ("banner.html#gespiegelt", "wud-ma-2026_banner_linkedin-profil_1584x396.png", 1584, 396, 1),
-    ("banner.html", "wud-ma-2026_banner_linkedin-event_1776x444.png", 1776, 444, 1),
+    ("event-cover.html", "wud-ma-2026_linkedin-event_titelbild_1920x1080.png", 1920, 1080, 1),
     ("banner.html", "wud-ma-2026_banner_newsletter-header_1200x300.png", 1200, 300, 1),
     ("banner.html", "wud-ma-2026_banner_newsletter-header_1200x300@2x.png", 1200, 300, 2),
     ("save-the-date-linkedin.html", "wud-ma-2026_save-the-date_linkedin_1080x1350.png", 1080, 1350, 1),

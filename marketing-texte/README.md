@@ -11,9 +11,9 @@
 | **Open Space erklärt**<br>→ [Text](open-space-format.md#social-post-open-space-erklärt-linkedin-carousel--oder-text-post) | <img src="../assets/export/wud-ma-2026_session-card_linkedin_1080x1350.png" width="240" alt="Was pitchst du?"> | Anfang November |
 | **Letzte Plätze**<br>→ [Text](event-vorstellung.md#letzte-plätze-post-ca-1-woche-vorher-falls-noch-plätze-frei) | <img src="../assets/export/wud-ma-2026_save-the-date_quadrat_1080x1080.png" width="240" alt="Save the Date quadratisch"> | ca. Do, 05.11. |
 
-**Titelbild für das LinkedIn-Event:**
+**Titelbild für das LinkedIn-Event (16:9):**
 
-<img src="../assets/export/wud-ma-2026_banner_linkedin-event_1776x444.png" width="720" alt="Banner LinkedIn-Event">
+<img src="../assets/export/wud-ma-2026_linkedin-event_titelbild_1920x1080.png" width="640" alt="LinkedIn-Event Titelbild">
 
 ## ✍️ Texte zum Einbauen
 

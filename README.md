@@ -36,13 +36,13 @@ Versandplan mit Terminen: [`newsletter/README.md`](newsletter/README.md)
 
 <img src="assets/export/wud-ma-2026_save-the-date_linkedin_1080x1350.png" width="200" alt="Save the Date"> <img src="assets/export/wud-ma-2026_session-card_linkedin_1080x1350.png" width="200" alt="Was pitchst du?"> <img src="assets/export/wud-ma-2026_profilbild_rot_1080x1080.png" width="200" alt="Profilbild"> <img src="assets/export/wud-ma-2026_flyer_vorschau-1.png" width="176" alt="Flyer Vorderseite">
 
-<img src="assets/export/wud-ma-2026_banner_linkedin-event_1776x444.png" width="800" alt="Banner">
+<img src="assets/export/wud-ma-2026_linkedin-event_titelbild_1920x1080.png" width="480" alt="LinkedIn-Event Titelbild"> <img src="assets/export/wud-ma-2026_banner_linkedin-profil_1584x396.png" width="480" alt="LinkedIn-Profilbanner">
 
 | Datei | Format | Einsatz |
 |---|---|---|
 | `…_profilbild_rot_1080x1080.png` | 1080 × 1080 | Profilbild (LinkedIn-Seite, Meetup, Slack) – funktioniert auch rund |
 | `…_profilbild_grau_1080x1080.png` | 1080 × 1080 | ruhigere Variante |
-| `…_banner_linkedin-event_1776x444.png` | 4 : 1 | Titelbild LinkedIn-Event |
+| `…_linkedin-event_titelbild_1920x1080.png` | 16 : 9 | Titelbild LinkedIn-Event (LinkedIn verlangt 16:9, empfohlen ab 1280 × 720) |
 | `…_banner_linkedin-profil_1584x396.png` | 4 : 1 | Profilbanner (gespiegelt, damit das Profilfoto keinen Text verdeckt) |
 | `…_banner_newsletter-header_1200x300(@2x).png` | 4 : 1 | Kopfbild für Newsletter / Website |
 | `…_save-the-date_linkedin_1080x1350.png` | 4 : 5 | Save-the-Date-Post (Hochformat, beste Feed-Präsenz) |

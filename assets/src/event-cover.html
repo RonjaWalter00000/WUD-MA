@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>LinkedIn-Event – Titelbild 16:9</title>
+<link rel="stylesheet" href="brand.css">
+<style>
+  /* LinkedIn-Event-Titelbild: 16:9 (empfohlen 1280×720, Export in 1920×1080).
+     Alle Maße in vw, damit das Layout in jeder 16:9-Größe gleich aussieht.
+     Wichtige Inhalte mit Abstand zum Rand, da LinkedIn in Vorschauen leicht beschneidet. */
+  html, body { width: 100vw; height: 56.25vw; }
+  body { background: var(--white); position: relative; }
+  .board { position: absolute; top: 0; bottom: 0; right: 0; width: 40vw; background: var(--grey); }
+
+  .text { position: absolute; left: 6.5vw; top: 0; bottom: 0; width: 52vw; display: flex; flex-direction: column; justify-content: center; }
+  .logo { width: 22vw; display: block; margin-bottom: 3vw; }
+  .title { font-size: 5vw; color: var(--red); font-weight: 600; white-space: nowrap; }
+  .meta { margin-top: 2.6vw; font-size: 2.05vw; font-weight: 500; line-height: 1.5; }
+  .meta b { font-weight: 800; }
+  .tags { margin-top: 1.2vw; font-size: 2.05vw; font-weight: 500; }
+  .cta { margin-top: 3vw; align-self: flex-start; font-size: 1.9vw; padding: 1.1vw 2.3vw; }
+
+  .notes { position: absolute; top: 0; bottom: 0; right: 0; width: 40vw; }
+  .sticky { width: 12vw; height: 11vw; font-size: 2.1vw; padding: .8vw; }
+  .s1 { left: 4vw;   top: 7vw;    transform: rotate(-4deg); }
+  .s2 { left: 21vw;  top: 5.5vw;  transform: rotate(3deg); }
+  .s3 { left: 6.5vw; top: 22.5vw; transform: rotate(3deg); }
+  .s4 { left: 23vw;  top: 21.5vw; transform: rotate(-3deg); }
+  .s5 { left: 22vw;  top: 38vw;   transform: rotate(-2deg); }
+  .sticky.dashed { border-width: .2vw; }
+  .arrow { position: absolute; left: 0; top: 0; width: 40vw; height: 56.25vw; }
+</style>
+</head>
+<body>
+  <div class="board"></div>
+
+  <div class="text">
+    <img class="logo" src="img/wud-logo.png" alt="World Usability Day">
+    <div class="head title">World Usability Day<br>Mannheim 2026</div>
+    <div class="meta"><b>Do, 12. November · 14–19 Uhr</b><br>C-Hub Mannheim</div>
+    <div class="tags">Open Space · Keynote · Get Together</div>
+    <div class="pill cta">Kostenlos anmelden: wud-ma.de</div>
+  </div>
+
+  <div class="notes">
+    <svg class="arrow" viewBox="0 0 400 562.5" aria-hidden="true">
+      <path d="M130 355 C 130 405, 160 432, 205 435" stroke-width="2.6" stroke-dasharray="7 6"/>
+      <polyline class="tip" points="194,425 207,435 194,445" stroke-width="2.6"/>
+    </svg>
+    <div class="sticky s1">Diskussion</div>
+    <div class="sticky s2">Co-Creation</div>
+    <div class="sticky s3">Vortrag</div>
+    <div class="sticky s4">Deine Frage?</div>
+    <div class="sticky dashed s5">Deine Session?</div>
+  </div>
+</body>
+</html>
