@@ -11,7 +11,7 @@
 @font-face { font-family: "Plus Jakarta Sans"; font-weight: 500; src: url(fonts/plus-jakarta-sans-latin-500-normal.woff2) format("woff2"); }
 @font-face { font-family: "Plus Jakarta Sans"; font-weight: 700; src: url(fonts/plus-jakarta-sans-latin-700-normal.woff2) format("woff2"); }
 @font-face { font-family: "Plus Jakarta Sans"; font-weight: 800; src: url(fonts/plus-jakarta-sans-latin-800-normal.woff2) format("woff2"); }
-@font-face { font-family: "Story Script"; font-weight: 400; src: url(fonts/story-script-latin-400-normal.woff2) format("woff2"); }
+@font-face { font-family: "Kalam"; font-weight: 700; src: url(fonts/kalam-latin-700-normal.woff2) format("woff2"); }
 
 :root {
   --red: #D13327;      /* Headlines, Buttons */
@@ -25,7 +25,7 @@
 
   --font-head: "Noway Round", "Nunito", sans-serif;
   --font-body: "Plus Jakarta Sans", sans-serif;
-  --font-hand: "Story Script", cursive;
+  --font-hand: "Kalam", cursive;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -40,8 +40,7 @@ body { font-family: var(--font-body); color: var(--navy); overflow: hidden; }
   position: absolute;
   background: var(--note);
   font-family: var(--font-hand);
-  font-weight: 400;
-  font-size-adjust: 0.56;  /* Story Script läuft klein – auf vergleichbare Größe bringen */
+  font-weight: 700;
   color: var(--navy);
   line-height: 1.05;
   display: flex; align-items: center; justify-content: center; text-align: center;
@@ -59,6 +58,7 @@ body { font-family: var(--font-body); color: var(--navy); overflow: hidden; }
   display: inline-flex; align-items: center; gap: .5em;
   background: var(--red); color: #fff; border-radius: 999px;
   font-family: var(--font-body); font-weight: 700;
+  box-shadow: none;  /* Buttons ohne Schlagschatten */
 }
 
 .arrow path { fill: none; stroke: var(--red); stroke-linecap: round; }

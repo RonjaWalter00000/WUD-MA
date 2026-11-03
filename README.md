@@ -69,7 +69,7 @@ Außerdem: [`assets/kalender/wud-mannheim-2026.ics`](assets/kalender/wud-mannhei
 | Pfeile, gestrichelte „Deine Session?“-Karte | `#D13327` Rot |
 | Logo-Akzente | `#40C0CB` Türkis · `#80BD42` Grün |
 
-**Schriften:** Headlines im CI = *Noway Round* · Fließtext = *Plus Jakarta Sans* · Post-its = *Story Script* (Handschrift, Google Fonts)
+**Schriften:** Headlines im CI = *Noway Round* · Fließtext = *Plus Jakarta Sans* · Post-its = *Kalam* (Handschrift)
 
 > ⚠️ **Noway Round** ist eine kostenpflichtige Schrift und liegt deshalb **nicht** in diesem öffentlichen Repo. Die Exporte nutzen als Ersatz **Nunito** (sehr ähnlich, frei). Ist Noway Round auf dem Rechner installiert, verwenden die HTML-Vorlagen sie automatisch – einfach neu rendern (s. unten).
 
