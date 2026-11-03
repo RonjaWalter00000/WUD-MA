@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="brand.css">
 <style>
   /* Zwei Panels: oben Text, unten Foto über die ganze Breite.
-     Varianten per URL-Hash: #sw = Foto schwarz-weiß · #teilen = Button für den Speaker · kombinierbar (#sw-teilen) */
+     Varianten per URL-Hash: #sw = Foto schwarz-weiß · #teilen = Version für den Speaker selbst · kombinierbar (#sw-teilen) */
   body { width: 1080px; height: 1350px; background: var(--white); position: relative; display: flex; flex-direction: column; }
 
   .top { position: relative; padding: 72px 72px 56px; background: var(--grey); }
@@ -28,6 +28,19 @@
   body.sw .photo { background-image: url(img/speaker-uwe-thimel_breit_sw.png); }
 
   .cta { margin-top: 36px; font-size: 30px; padding: 18px 36px; }
+
+  /* Version zum Teilen: kein großer Name, stattdessen „Speaker at …“ + Post-it auf dem Foto */
+  .share { display: none; }
+  body.teilen .orga { display: none; }
+  body.teilen .share { display: block; }
+  body.teilen .pill.share { display: inline-flex; }
+  .share-head { font-size: 84px; color: var(--red); line-height: 1.04; max-width: 800px; }
+  .share-date { margin-top: 40px; font-size: 38px; font-weight: 500; }
+  .share-date b { font-weight: 800; }
+  .share-call { margin-top: 10px; font-size: 38px; font-weight: 500; }
+  .photo { position: relative; }
+  body.teilen .sticky.share { display: flex; }
+  .note-at { left: 760px; top: 190px; width: 240px; height: 220px; font-size: 44px; transform: rotate(6deg); line-height: 1.1; }
 </style>
 </head>
 <body>
@@ -36,22 +49,33 @@
 
   <div class="top">
     <div class="uxma"><div class="ux">UX</div><div class="ma">MA</div></div>
-    <div class="head headline">Speaker<br>World Usability Day Mannheim</div>
-    <div class="head name">Uwe Thimel</div>
-    <div class="role">Chief Creative Officer, inovex</div>
-    <div class="talk" id="talk"></div>
-    <div class="meta"><b>Keynote · Do, 12.11. · 15:30 Uhr</b> · C-Hub Mannheim</div>
-    <div class="pill cta" id="cta">Jetzt anmelden: wud-ma.de</div>
+    <!-- Version für euch -->
+    <div class="orga">
+      <div class="head headline">Speaker<br>World Usability Day Mannheim</div>
+      <div class="head name">Uwe Thimel</div>
+      <div class="role">Chief Creative Officer, inovex</div>
+      <div class="talk" id="talk"></div>
+      <div class="meta"><b>Keynote · Do, 12.11. · 15:30 Uhr</b> · C-Hub Mannheim</div>
+    </div>
+    <div class="pill cta orga">Jetzt anmelden: wud-ma.de</div>
+
+    <!-- Version zum Teilen für den Speaker -->
+    <div class="share">
+      <div class="head share-head">Speaker at<br>World Usability Day</div>
+      <div class="share-date"><b>Do, 12.11.2026 · 15:30 Uhr</b> · C-Hub Mannheim</div>
+      <div class="share-call">Kommt vorbei!</div>
+    </div>
+    <div class="pill cta share">Kostenlos anmelden: wud-ma.de</div>
   </div>
 
-  <div class="photo"></div>
+  <div class="photo"><div class="sticky note-at share">at WUD<br>Mannheim</div></div>
 
   <script>
     const talk = document.getElementById('talk');
     if (TALK_TITLE) { talk.textContent = "„" + TALK_TITLE + "“"; document.body.classList.add('has-talk'); }
     const h = location.hash;
     if (h.includes('sw')) document.body.classList.add('sw');
-    if (h.includes('teilen')) document.getElementById('cta').textContent = 'Sei dabei: wud-ma.de';
+    if (h.includes('teilen')) document.body.classList.add('teilen');
   </script>
 </body>
 </html>
