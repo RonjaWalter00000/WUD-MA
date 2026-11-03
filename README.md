@@ -25,6 +25,7 @@ Versandplan mit Terminen: [`newsletter/README.md`](newsletter/README.md)
 | [event-vorstellung.md](marketing-texte/event-vorstellung.md) | Event-Beschreibung in XS/S/M/L + fertige Social-Posts |
 | [open-space-format.md](marketing-texte/open-space-format.md) | Open Space erklärt in XS/S/M/L + FAQ-Bausteine + Social-Post |
 | [save-the-date-linkedin-post.md](marketing-texte/save-the-date-linkedin-post.md) | 3 Post-Texte zum Save-the-Date-Bild |
+| [keynote-uwe-thimel.md](marketing-texte/keynote-uwe-thimel.md) | Keynote-Ankündigung: Post für euch, Post zum Teilen für Uwe, Bio, Bausteine, Nachricht an Uwe |
 | [sessions-mitmachen-post.md](marketing-texte/sessions-mitmachen-post.md) | „Was pitchst du?“ – 3 Post-Texte, die zum Mitmachen in den Sessions motivieren |
 
 ### 🌐 Website → [`website/`](website/)
@@ -48,6 +49,8 @@ Versandplan mit Terminen: [`newsletter/README.md`](newsletter/README.md)
 | `…_save-the-date_linkedin_1080x1350.png` | 4 : 5 | Save-the-Date-Post (Hochformat, beste Feed-Präsenz) |
 | `…_save-the-date_quadrat_1080x1080.png` | 1 : 1 | Save-the-Date für Instagram & Co. |
 | `…_session-card_linkedin_1080x1350.png` | 4 : 5 | „Was pitchst du?“-Post im Stil der Session Cards |
+| `…_keynote-uwe-thimel_linkedin_1080x1350.png` | 4 : 5 | Keynote-Ankündigung (für euch) |
+| `…_keynote-uwe-thimel_zum-teilen_1080x1350.png` | 4 : 5 | Keynote-Ankündigung zum Teilen für Uwe („Ich halte die Keynote“) |
 | `…_flyer_a5_mit-beschnitt.pdf` | DIN A5 + 3 mm | Druckbarer Flyer, Vorder- & Rückseite, QR-Code zur Anmeldung |
 | `…_flyer_a5_digital.pdf` | DIN A5 | Gleicher Flyer ohne Beschnittränder – als Mail-Anhang (z. B. Newsletter 1) |
 | `…_flyer_vorschau-1/2.png` | | Vorschaubilder des Flyers |

@@ -25,6 +25,8 @@ PNG_JOBS = [
     ("save-the-date-linkedin.html", "wud-ma-2026_save-the-date_linkedin_1080x1350.png", 1080, 1350, 1),
     ("save-the-date-quadrat.html", "wud-ma-2026_save-the-date_quadrat_1080x1080.png", 1080, 1080, 1),
     ("session-card-post.html", "wud-ma-2026_session-card_linkedin_1080x1350.png", 1080, 1350, 1),
+    ("keynote-speaker.html", "wud-ma-2026_keynote-uwe-thimel_linkedin_1080x1350.png", 1080, 1350, 1),
+    ("keynote-speaker.html#teilen", "wud-ma-2026_keynote-uwe-thimel_zum-teilen_1080x1350.png", 1080, 1350, 1),
 ]
 # Flyer: DIN A5 + 3 mm Beschnitt (154 × 216 mm), Vorder- und Rückseite
 PDF_JOBS = [
