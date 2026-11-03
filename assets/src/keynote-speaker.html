@@ -37,7 +37,7 @@
   .share-head { font-size: 84px; color: var(--red); line-height: 1.04; max-width: 800px; }
   .share-date { margin-top: 40px; font-size: 38px; font-weight: 500; }
   .share-date b { font-weight: 800; }
-  .share-call { margin-top: 10px; font-size: 38px; font-weight: 500; }
+  .share-cta { position: absolute; left: 50%; bottom: 64px; transform: translateX(-50%); white-space: nowrap; font-size: 32px; padding: 20px 40px; box-shadow: 0 14px 30px -12px rgba(0,4,39,.45); }
   .photo { position: relative; }
   body.teilen .sticky.share { display: flex; }
   .note-at { left: 760px; top: 190px; width: 240px; height: 220px; font-size: 44px; transform: rotate(6deg); line-height: 1.1; }
@@ -63,12 +63,13 @@
     <div class="share">
       <div class="head share-head">Speaker at<br>World Usability Day</div>
       <div class="share-date"><b>Do, 12.11.2026 · 15:30 Uhr</b> · C-Hub Mannheim</div>
-      <div class="share-call">Kommt vorbei!</div>
     </div>
-    <div class="pill cta share">Kostenlos anmelden: wud-ma.de</div>
   </div>
 
-  <div class="photo"><div class="sticky note-at share">at WUD<br>Mannheim</div></div>
+  <div class="photo">
+    <div class="sticky note-at share">at WUD<br>Mannheim</div>
+    <div class="pill share-cta share">Kostenlos anmelden: wud-ma.de</div>
+  </div>
 
   <script>
     const talk = document.getElementById('talk');
