@@ -50,7 +50,8 @@ Versandplan mit Terminen: [`newsletter/README.md`](newsletter/README.md)
 | `…_save-the-date_quadrat_1080x1080.png` | 1 : 1 | Save-the-Date für Instagram & Co. |
 | `…_session-card_linkedin_1080x1350.png` | 4 : 5 | „Was pitchst du?“-Post im Stil der Session Cards |
 | `…_keynote-uwe-thimel_linkedin_1080x1350.png` | 4 : 5 | Keynote-Ankündigung (für euch) |
-| `…_keynote-uwe-thimel_zum-teilen_1080x1350.png` | 4 : 5 | Keynote-Ankündigung zum Teilen für Uwe („Ich halte die Keynote“) |
+| `…_keynote-uwe-thimel_zum-teilen_1080x1350.png` | 4 : 5 | Gleiche Grafik zum Teilen für Uwe (Button „Sei dabei“) |
+| `…_keynote-uwe-thimel_…_sw_1080x1350.png` | 4 : 5 | Beide Varianten mit Foto in Schwarz-Weiß |
 | `…_flyer_a5_mit-beschnitt.pdf` | DIN A5 + 3 mm | Druckbarer Flyer, Vorder- & Rückseite, QR-Code zur Anmeldung |
 | `…_flyer_a5_digital.pdf` | DIN A5 | Gleicher Flyer ohne Beschnittränder – als Mail-Anhang (z. B. Newsletter 1) |
 | `…_flyer_vorschau-1/2.png` | | Vorschaubilder des Flyers |

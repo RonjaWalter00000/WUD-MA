@@ -2,57 +2,56 @@
 <html lang="de">
 <head>
 <meta charset="utf-8">
-<title>Speaker WUD MA – Post (1080×1350)</title>
+<title>Speaker – Post (1080×1350)</title>
 <link rel="stylesheet" href="brand.css">
 <style>
-  body { width: 1080px; height: 1350px; background: var(--grey); position: relative; }
+  /* Zwei Panels: oben Text, unten Foto über die ganze Breite.
+     Varianten per URL-Hash: #sw = Foto schwarz-weiß · #teilen = Button für den Speaker · kombinierbar (#sw-teilen) */
+  body { width: 1080px; height: 1350px; background: var(--white); position: relative; display: flex; flex-direction: column; }
+
+  .top { position: relative; padding: 72px 72px 56px; }
 
   /* UX-MA-Logo, nachgebaut */
-  .uxma { position: absolute; right: 72px; top: 72px; width: 132px; text-align: center; font-family: var(--font-head); line-height: 1; }
-  .uxma .ux { background: var(--white); border-radius: 14px 14px 0 0; font-weight: 800; font-size: 62px; color: #000; padding: 18px 0 14px; letter-spacing: .01em; }
-  .uxma .ma { background: #E4E4E2; border-radius: 0 0 14px 14px; font-weight: 400; font-size: 62px; color: var(--red); padding: 16px 0 18px; letter-spacing: .03em; }
+  .uxma { position: absolute; right: 72px; top: 72px; width: 120px; text-align: center; font-family: var(--font-head); line-height: 1; }
+  .uxma .ux { background: var(--white); border-radius: 12px 12px 0 0; font-weight: 800; font-size: 56px; color: #000; padding: 16px 0 12px; box-shadow: inset 0 0 0 2px #EDEDEB; }
+  .uxma .ma { background: var(--grey); border-radius: 0 0 12px 12px; font-weight: 400; font-size: 56px; color: var(--red); padding: 14px 0 16px; letter-spacing: .03em; }
 
-  .headline { position: absolute; left: 72px; top: 92px; font-size: 92px; color: var(--red); }
-
-  .photo { position: absolute; left: 72px; top: 300px; width: 560px; height: 560px; border-radius: 50%; overflow: hidden;
-           box-shadow: 0 30px 60px -30px rgba(0,4,39,.35); }
-  .photo img { width: 100%; height: 100%; display: block; }
-
-  .name { position: absolute; left: 72px; top: 920px; font-size: 84px; color: var(--navy); }
-  .role { position: absolute; left: 76px; top: 1018px; font-size: 34px; font-weight: 500; }
-  .talk { position: absolute; left: 76px; top: 1078px; right: 72px; font-family: var(--font-head); font-weight: 600; font-size: 40px; line-height: 1.15; color: var(--red); }
+  .headline { font-size: 50px; color: var(--red); max-width: 790px; line-height: 1.1; }
+  .name { margin-top: 72px; font-size: 96px; color: var(--navy); }
+  .role { margin-top: 12px; font-size: 36px; font-weight: 500; }
+  .talk { margin-top: 24px; font-family: var(--font-head); font-weight: 600; font-size: 40px; line-height: 1.15; color: var(--red); max-width: 936px; }
   .talk:empty { display: none; }
-  .meta { position: absolute; left: 76px; top: 1080px; font-size: 30px; font-weight: 500; }
-  /* mit Vortragstitel: Foto etwas kleiner, Textblock rückt nach oben */
-  .has-talk .photo { width: 480px; height: 480px; }
-  .has-talk .name { top: 830px; }
-  .has-talk .role { top: 928px; }
-  .has-talk .talk { top: 990px; }
-  .has-talk .meta { top: 1100px; }
+  .meta { margin-top: 22px; font-size: 30px; font-weight: 500; }
   .meta b { font-weight: 800; }
-  .cta { position: absolute; left: 72px; bottom: 64px; font-size: 30px; padding: 18px 36px; }
+
+  .photo { flex: 1; background: url(img/speaker-uwe-thimel_breit.png) center bottom / auto 100% no-repeat; }
+  body.sw .photo { background-image: url(img/speaker-uwe-thimel_breit_sw.png); }
+
+  .cta { margin-top: 36px; font-size: 30px; padding: 18px 36px; }
 </style>
 </head>
 <body>
   <!-- ▼ Vortragstitel hier eintragen, sobald er feststeht (leer lassen = keine Titelzeile) -->
   <script>const TALK_TITLE = "";</script>
 
-  <div class="uxma"><div class="ux">UX</div><div class="ma">MA</div></div>
-  <div class="head headline">Speaker WUD MA</div>
+  <div class="top">
+    <div class="uxma"><div class="ux">UX</div><div class="ma">MA</div></div>
+    <div class="head headline">Speaker<br>World Usability Day Mannheim</div>
+    <div class="head name">Uwe Thimel</div>
+    <div class="role">Chief Creative Officer, inovex</div>
+    <div class="talk" id="talk"></div>
+    <div class="meta"><b>Keynote · Do, 12.11. · 15:30 Uhr</b> · C-Hub Mannheim</div>
+    <div class="pill cta" id="cta">Jetzt anmelden: wud-ma.de</div>
+  </div>
 
-  <div class="photo"><img src="img/speaker-uwe-thimel.png" alt="Uwe Thimel"></div>
-
-  <div class="head name">Uwe Thimel</div>
-  <div class="role">Chief Creative Officer, inovex</div>
-  <div class="talk" id="talk"></div>
-  <div class="meta"><b>Keynote · Do, 12.11. · 15:30 Uhr</b> · C-Hub Mannheim</div>
-  <div class="pill cta" id="cta">Jetzt anmelden: wud-ma.de</div>
+  <div class="photo"></div>
 
   <script>
     const talk = document.getElementById('talk');
     if (TALK_TITLE) { talk.textContent = "„" + TALK_TITLE + "“"; document.body.classList.add('has-talk'); }
-    // Variante zum Teilen für den Speaker selbst
-    if (location.hash === '#teilen') document.getElementById('cta').textContent = 'Sei dabei: wud-ma.de';
+    const h = location.hash;
+    if (h.includes('sw')) document.body.classList.add('sw');
+    if (h.includes('teilen')) document.getElementById('cta').textContent = 'Sei dabei: wud-ma.de';
   </script>
 </body>
 </html>
