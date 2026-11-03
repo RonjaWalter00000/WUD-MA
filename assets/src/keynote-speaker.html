@@ -51,10 +51,11 @@
   /* ---------- Chat: echter Screenshot ---------- */
   .name { margin-top: 26px; font-size: 76px; color: var(--navy); }
   .role { margin-top: 6px; font-size: 32px; font-weight: 500; }
-  .chat-meta { margin-top: 14px; }
+  .chat-meta { margin-top: 18px; }
+  .url { color: var(--red); font-weight: 800; }
   .share-head { font-size: 68px; color: var(--red); line-height: 1.04; max-width: 800px; }
   .share-meta { margin-top: 26px; }
-  .shot { position: absolute; left: 50%; bottom: -26px; width: 790px; margin-left: -395px; transform: rotate(-3deg);
+  .shot { position: absolute; right: 36px; bottom: 56px; width: 760px; transform: rotate(3deg);
           border-radius: 30px; overflow: hidden; box-shadow: 0 30px 60px -24px rgba(0,4,39,.45); }
   .shot img { width: 100%; display: block; }
 </style>
@@ -85,17 +86,14 @@
     <div class="v v-chat-orga">
       <div class="kicker">Keynote · World Usability Day Mannheim</div>
       <div class="head name">Uwe Thimel</div>
-      <div class="role">Chief Creative Officer, inovex</div>
-      <div class="meta chat-meta"><b>Do, 12.11. · 15:30 Uhr</b> · C-Hub Mannheim</div>
+      <div class="meta chat-meta"><b>Do, 12.11. · 15:30 Uhr</b> · C-Hub Mannheim · <span class="url">wud-ma.de</span></div>
     </div>
-    <div class="pill cta v v-chat-orga">Jetzt anmelden: wud-ma.de</div>
 
     <!-- Chat – zum Teilen -->
     <div class="v v-chat-share">
       <div class="head share-head">Speaker at<br>World Usability Day</div>
-      <div class="meta share-meta"><b>Do, 12.11.2026 · 15:30 Uhr</b> · C-Hub Mannheim</div>
+      <div class="meta share-meta"><b>Do, 12.11. · 15:30 Uhr</b> · C-Hub Mannheim · <span class="url">wud-ma.de</span></div>
     </div>
-    <div class="pill cta v v-chat-share">Kostenlos anmelden: wud-ma.de</div>
   </div>
 
   <div class="photo">
@@ -107,6 +105,11 @@
   <script>
     const h = location.hash;
     ['chat','teilen','sw'].forEach(k => { if (h.includes(k)) document.body.classList.add(k); });
+    // Chat-Version: Uwe nach links rücken, damit die Nachricht rechts Platz hat
+    if (document.body.classList.contains('chat')) {
+      const ph = document.querySelector('.photo'), H = ph.clientHeight, s = H / 935;   // Bild: 1700×935, Person mittig (x=850)
+      ph.style.backgroundPosition = Math.round(340 - 850 * s) + 'px bottom';
+    }
   </script>
 </body>
 </html>
