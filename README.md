@@ -52,6 +52,7 @@ Versandplan mit Terminen: [`newsletter/README.md`](newsletter/README.md)
 | `…_keynote-uwe-thimel_linkedin_1080x1350.png` | 4 : 5 | Keynote-Ankündigung (für euch) |
 | `…_keynote-uwe-thimel_zum-teilen_1080x1350.png` | 4 : 5 | Version zum Teilen für Uwe: „Speaker at World Usability Day“, Post-it „at WUD Mannheim“ |
 | `…_keynote-uwe-thimel_…_sw_1080x1350.png` | 4 : 5 | Beide Varianten mit Foto in Schwarz-Weiß |
+| `…_keynote-uwe-thimel_chat_…_1080x1350.png` | 4 : 5 | Alternative: Vortragstitel als echter WhatsApp-Screenshot (für euch / zum Teilen, Farbe / S-W) |
 | `…_flyer_a5_mit-beschnitt.pdf` | DIN A5 + 3 mm | Druckbarer Flyer, Vorder- & Rückseite, QR-Code zur Anmeldung |
 | `…_flyer_a5_digital.pdf` | DIN A5 | Gleicher Flyer ohne Beschnittränder – als Mail-Anhang (z. B. Newsletter 1) |
 | `…_flyer_vorschau-1/2.png` | | Vorschaubilder des Flyers |

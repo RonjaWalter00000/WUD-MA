@@ -1,7 +1,15 @@
 # Keynote-Ankündigung: Uwe Thimel
 
-> ⚠️ **Vor dem Veröffentlichen von Uwe freigeben lassen:** Die Bio basiert auf öffentlichen Angaben (u. a. Podcast „Digital Future“ von inovex, Sept. 2025, und Profilseiten) und ist nicht von ihm bestätigt. Der **Vortragstitel** steht noch aus – überall als `{{Vortragstitel}}` markiert.
-> **Titel in die Grafiken einbauen:** in `assets/src/keynote-speaker.html` oben bei `TALK_TITLE` eintragen und `python assets/render.py keynote` ausführen – die Titelzeile erscheint dann automatisch.
+**Vortrag:** „Geh mir fort mit dem Scheiß-Change immer!“ – Wie verändert sich das Berufsbild UX?
+
+> ⚠️ **Vor dem Veröffentlichen von Uwe freigeben lassen:** Die Bio basiert auf öffentlichen Angaben (u. a. Podcast „Digital Future“ von inovex, Sept. 2025, und Profilseiten) und ist nicht von ihm bestätigt.
+
+**Zwei Grafik-Stile zur Auswahl** (je für euch und zum Teilen für Uwe, jeweils auch in Schwarz-Weiß):
+
+| Klassisch – Titel groß | Chat – echter Screenshot |
+|---|---|
+| <img src="../assets/export/wud-ma-2026_keynote-uwe-thimel_linkedin_1080x1350.png" width="260"> | <img src="../assets/export/wud-ma-2026_keynote-uwe-thimel_chat_linkedin_1080x1350.png" width="260"> |
+| <img src="../assets/export/wud-ma-2026_keynote-uwe-thimel_zum-teilen_1080x1350.png" width="260"> | <img src="../assets/export/wud-ma-2026_keynote-uwe-thimel_chat_zum-teilen_1080x1350.png" width="260"> |
 
 **Timing-Vorschlag:** Do, 05.11. (zusammen mit dem 1-Woche-Reminder) – Uwe teilt am selben oder am nächsten Tag.
 
@@ -25,7 +33,8 @@ Uwe Thimel ist Chief Creative Officer bei inovex in Karlsruhe. Zuvor war er unte
 
 Wir freuen uns riesig, dass **Uwe Thimel** den World Usability Day Mannheim eröffnet. Uwe ist Chief Creative Officer bei inovex und hat die Entwicklung von UX über viele Jahre mitgeprägt – von 1&1 über CAS Software und EXXETA bis heute.
 
-Sein Thema: **{{Vortragstitel}}**
+Sein Thema: **„Geh mir fort mit dem Scheiß-Change immer!“**
+Wie verändert sich das Berufsbild UX?
 
 Um 15:30 Uhr gibt Uwe den Impuls – danach geht’s in die Open Space Sessions, in denen ihr das Programm selbst gestaltet.
 
@@ -48,7 +57,7 @@ Um 15:30 Uhr gibt Uwe den Impuls – danach geht’s in die Open Space Sessions,
 
 Am 12. November darf ich die Keynote beim World Usability Day in Mannheim halten. 🎤
 
-Mein Thema: {{Vortragstitel}}
+Mein Thema: „Geh mir fort mit dem Scheiß-Change immer!“ – Wie verändert sich das Berufsbild UX?
 
 Danach wird’s spannend: Im Open-Space-Format gestaltet die Community den restlichen Nachmittag selbst. Ich freue mich auf viele gute Gespräche – kommt vorbei!
 
@@ -77,12 +86,12 @@ Danke an @Christian Fernandez, @Christian Reschke und @Ronja Walter für die Ein
 ## Baustein für Newsletter & Reminder
 
 **🎤 Keynote: Uwe Thimel**
-Um 15:30 Uhr eröffnet Uwe Thimel, Chief Creative Officer bei inovex, den World Usability Day Mannheim mit seiner Keynote **„{{Vortragstitel}}“**. Danach geht’s direkt in die Open Space Sessions.
+Um 15:30 Uhr eröffnet Uwe Thimel, Chief Creative Officer bei inovex, den World Usability Day Mannheim mit seiner Keynote **„Geh mir fort mit dem Scheiß-Change immer!“ – Wie verändert sich das Berufsbild UX?**. Danach geht’s direkt in die Open Space Sessions.
 
 ## Baustein für die Website (Programmpunkt 15:30 Uhr)
 
 **Keynote & Opening – Uwe Thimel**
-„{{Vortragstitel}}“
+„Geh mir fort mit dem Scheiß-Change immer!“ – Wie verändert sich das Berufsbild UX?
 Uwe Thimel ist Chief Creative Officer bei inovex in Karlsruhe. Mit seiner Keynote eröffnet er den World Usability Day Mannheim und gibt den Impuls für die Open Space Sessions.
 
 ---
@@ -96,9 +105,7 @@ wir freuen uns sehr, dass du die Keynote beim World Usability Day Mannheim über
 - Grafik zum Teilen: {{Link zur Grafik}}
 - Textvorschläge: {{Link oder Text einfügen}}
 
-Zwei kurze Bitten:
-1. Schau gern einmal über die Kurz-Bio – stimmt alles so, oder möchtest du etwas ändern?
-2. Hast du schon einen Titel für deinen Vortrag? Dann bauen wir ihn noch in die Grafiken ein.
+Eine kurze Bitte: Schau gern einmal über die Kurz-Bio – stimmt alles so, oder möchtest du etwas ändern?
 
 Wir würden die Ankündigung gern am Donnerstag, 5.11., posten – wenn du am selben Tag oder kurz danach teilst, wäre das super.
 

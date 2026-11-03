@@ -2,13 +2,16 @@
 <html lang="de">
 <head>
 <meta charset="utf-8">
-<title>Speaker – Post (1080×1350)</title>
+<title>Keynote – Post (1080×1350)</title>
 <link rel="stylesheet" href="brand.css">
 <style>
   /* Zwei Panels: oben Text, unten Foto über die ganze Breite.
-     Varianten per URL-Hash: #sw = Foto schwarz-weiß · #teilen = Version für den Speaker selbst · kombinierbar (#sw-teilen) */
-  body { width: 1080px; height: 1350px; background: var(--white); position: relative; display: flex; flex-direction: column; }
-
+     Varianten per URL-Hash (kombinierbar, z. B. #chat-teilen-sw):
+       (ohne)  = klassisch, Titel als größtes Element
+       #chat   = Titel als echter WhatsApp-Screenshot vor dem Foto
+       #teilen = Version für den Speaker selbst
+       #sw     = Foto schwarz-weiß */
+  body { width: 1080px; height: 1350px; background: var(--white); position: relative; display: flex; flex-direction: column; overflow: hidden; }
   .top { position: relative; padding: 72px 72px 56px; background: var(--grey); }
 
   /* UX-MA-Logo, nachgebaut */
@@ -16,67 +19,94 @@
   .uxma .ux { background: var(--white); border-radius: 12px 12px 0 0; font-weight: 800; font-size: 56px; color: #000; padding: 16px 0 12px; }
   .uxma .ma { background: #E4E4E2; border-radius: 0 0 12px 12px; font-weight: 400; font-size: 56px; color: var(--red); padding: 14px 0 16px; letter-spacing: .03em; }
 
-  .headline { font-size: 50px; color: var(--red); max-width: 790px; line-height: 1.1; }
-  .name { margin-top: 72px; font-size: 96px; color: var(--navy); }
-  .role { margin-top: 12px; font-size: 36px; font-weight: 500; }
-  .talk { margin-top: 24px; font-family: var(--font-head); font-weight: 600; font-size: 40px; line-height: 1.15; color: var(--red); max-width: 936px; }
-  .talk:empty { display: none; }
-  .meta { margin-top: 22px; font-size: 30px; font-weight: 500; }
+  .kicker { font-weight: 800; font-size: 26px; letter-spacing: .08em; text-transform: uppercase; max-width: 780px; }
+  .meta { font-size: 30px; font-weight: 500; }
   .meta b { font-weight: 800; }
-
-  .photo { flex: 1; background: url(img/speaker-uwe-thimel_breit.png) center bottom / auto 100% no-repeat; }
-  body.sw .photo { background-image: url(img/speaker-uwe-thimel_breit_sw.png); }
-
   .cta { margin-top: 36px; font-size: 30px; padding: 18px 36px; }
 
-  /* Version zum Teilen: kein großer Name, stattdessen „Speaker at …“ + Post-it auf dem Foto */
-  .share { display: none; }
-  body.teilen .orga { display: none; }
-  body.teilen .share { display: block; }
-  body.teilen .pill.share { display: inline-flex; }
-  .share-head { font-size: 84px; color: var(--red); line-height: 1.04; max-width: 800px; }
-  .share-date { margin-top: 40px; font-size: 38px; font-weight: 500; }
-  .share-date b { font-weight: 800; }
+  .photo { flex: 1; position: relative; background: url(img/speaker-uwe-thimel_breit.png) center bottom / auto 100% no-repeat; }
+  body.sw .photo { background-image: url(img/speaker-uwe-thimel_breit_sw.png); }
+
+  /* Sichtbarkeit je Variante */
+  .v { display: none; }
+  body:not(.chat):not(.teilen) .v-classic-orga,
+  body:not(.chat).teilen .v-classic-share,
+  body.chat:not(.teilen) .v-chat-orga,
+  body.chat.teilen .v-chat-share { display: block; }
+  body:not(.chat):not(.teilen) .pill.v-classic-orga,
+  body:not(.chat).teilen .pill.v-classic-share,
+  body.chat:not(.teilen) .pill.v-chat-orga,
+  body.chat.teilen .pill.v-chat-share { display: inline-flex; }
+  body:not(.chat).teilen .sticky.v-classic-share { display: flex; }
+
+  /* ---------- Klassisch: Titel groß ---------- */
+  .title { margin-top: 92px; font-size: 82px; color: var(--red); line-height: 1.02; letter-spacing: -.02em; }
+  .subtitle { margin-top: 20px; font-family: var(--font-head); font-weight: 600; font-size: 40px; line-height: 1.15; }
+  .speaker { margin-top: 40px; font-size: 32px; }
+  .speaker b { font-weight: 800; }
+  .classic-meta { margin-top: 8px; font-size: 28px; }
   .share-cta { position: absolute; left: 50%; bottom: 64px; transform: translateX(-50%); white-space: nowrap; font-size: 32px; padding: 20px 40px; }
-  .photo { position: relative; }
-  body.teilen .sticky.share { display: flex; }
-  .note-at { left: 760px; top: 190px; width: 240px; height: 220px; font-size: 44px; transform: rotate(6deg); line-height: 1.1; }
+  .note-at { left: 760px; top: 110px; width: 230px; height: 210px; font-size: 42px; transform: rotate(6deg); line-height: 1.1; }
+
+  /* ---------- Chat: echter Screenshot ---------- */
+  .name { margin-top: 26px; font-size: 76px; color: var(--navy); }
+  .role { margin-top: 6px; font-size: 32px; font-weight: 500; }
+  .chat-meta { margin-top: 14px; }
+  .share-head { font-size: 68px; color: var(--red); line-height: 1.04; max-width: 800px; }
+  .share-meta { margin-top: 26px; }
+  .shot { position: absolute; left: 50%; bottom: -26px; width: 790px; margin-left: -395px; transform: rotate(-3deg);
+          border-radius: 30px; overflow: hidden; box-shadow: 0 30px 60px -24px rgba(0,4,39,.45); }
+  .shot img { width: 100%; display: block; }
 </style>
 </head>
 <body>
-  <!-- ▼ Vortragstitel hier eintragen, sobald er feststeht (leer lassen = keine Titelzeile) -->
-  <script>const TALK_TITLE = "";</script>
-
   <div class="top">
     <div class="uxma"><div class="ux">UX</div><div class="ma">MA</div></div>
-    <!-- Version für euch -->
-    <div class="orga">
-      <div class="head headline">Speaker<br>World Usability Day Mannheim</div>
+
+    <!-- Klassisch – für euch -->
+    <div class="v v-classic-orga">
+      <div class="kicker">Keynote · World Usability Day Mannheim</div>
+      <div class="head title">„Geh mir fort mit dem Scheiß-Change immer!“</div>
+      <div class="subtitle">Wie verändert sich das Berufsbild UX?</div>
+      <div class="speaker"><b>Uwe Thimel</b> · Chief Creative Officer, inovex</div>
+      <div class="meta classic-meta"><b>Do, 12.11. · 15:30 Uhr</b> · C-Hub Mannheim</div>
+    </div>
+    <div class="pill cta v v-classic-orga">Jetzt anmelden: wud-ma.de</div>
+
+    <!-- Klassisch – zum Teilen -->
+    <div class="v v-classic-share">
+      <div class="kicker">Speaker at World Usability Day</div>
+      <div class="head title">„Geh mir fort mit dem Scheiß-Change immer!“</div>
+      <div class="subtitle">Wie verändert sich das Berufsbild UX?</div>
+      <div class="meta classic-meta" style="margin-top:36px"><b>Do, 12.11.2026 · 15:30 Uhr</b> · C-Hub Mannheim</div>
+    </div>
+
+    <!-- Chat – für euch -->
+    <div class="v v-chat-orga">
+      <div class="kicker">Keynote · World Usability Day Mannheim</div>
       <div class="head name">Uwe Thimel</div>
       <div class="role">Chief Creative Officer, inovex</div>
-      <div class="talk" id="talk"></div>
-      <div class="meta"><b>Keynote · Do, 12.11. · 15:30 Uhr</b> · C-Hub Mannheim</div>
+      <div class="meta chat-meta"><b>Do, 12.11. · 15:30 Uhr</b> · C-Hub Mannheim</div>
     </div>
-    <div class="pill cta orga">Jetzt anmelden: wud-ma.de</div>
+    <div class="pill cta v v-chat-orga">Jetzt anmelden: wud-ma.de</div>
 
-    <!-- Version zum Teilen für den Speaker -->
-    <div class="share">
+    <!-- Chat – zum Teilen -->
+    <div class="v v-chat-share">
       <div class="head share-head">Speaker at<br>World Usability Day</div>
-      <div class="share-date"><b>Do, 12.11.2026 · 15:30 Uhr</b> · C-Hub Mannheim</div>
+      <div class="meta share-meta"><b>Do, 12.11.2026 · 15:30 Uhr</b> · C-Hub Mannheim</div>
     </div>
+    <div class="pill cta v v-chat-share">Kostenlos anmelden: wud-ma.de</div>
   </div>
 
   <div class="photo">
-    <div class="sticky note-at share">at WUD<br>Mannheim</div>
-    <div class="pill share-cta share">Kostenlos anmelden: wud-ma.de</div>
+    <div class="sticky note-at v v-classic-share">at WUD<br>Mannheim</div>
+    <div class="pill share-cta v v-classic-share">Kostenlos anmelden: wud-ma.de</div>
+    <div class="shot v v-chat-orga v-chat-share"><img src="img/keynote-titel-screenshot.jpg" alt="„Geh mir fort mit dem Scheiß-Change immer!“ – Wie verändert sich das Berufsbild UX?"></div>
   </div>
 
   <script>
-    const talk = document.getElementById('talk');
-    if (TALK_TITLE) { talk.textContent = "„" + TALK_TITLE + "“"; document.body.classList.add('has-talk'); }
     const h = location.hash;
-    if (h.includes('sw')) document.body.classList.add('sw');
-    if (h.includes('teilen')) document.body.classList.add('teilen');
+    ['chat','teilen','sw'].forEach(k => { if (h.includes(k)) document.body.classList.add(k); });
   </script>
 </body>
 </html>

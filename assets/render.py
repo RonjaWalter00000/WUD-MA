@@ -29,6 +29,10 @@ PNG_JOBS = [
     ("keynote-speaker.html#teilen", "wud-ma-2026_keynote-uwe-thimel_zum-teilen_1080x1350.png", 1080, 1350, 1),
     ("keynote-speaker.html#sw", "wud-ma-2026_keynote-uwe-thimel_linkedin_sw_1080x1350.png", 1080, 1350, 1),
     ("keynote-speaker.html#sw-teilen", "wud-ma-2026_keynote-uwe-thimel_zum-teilen_sw_1080x1350.png", 1080, 1350, 1),
+    ("keynote-speaker.html#chat", "wud-ma-2026_keynote-uwe-thimel_chat_linkedin_1080x1350.png", 1080, 1350, 1),
+    ("keynote-speaker.html#chat-teilen", "wud-ma-2026_keynote-uwe-thimel_chat_zum-teilen_1080x1350.png", 1080, 1350, 1),
+    ("keynote-speaker.html#chat-sw", "wud-ma-2026_keynote-uwe-thimel_chat_linkedin_sw_1080x1350.png", 1080, 1350, 1),
+    ("keynote-speaker.html#chat-teilen-sw", "wud-ma-2026_keynote-uwe-thimel_chat_zum-teilen_sw_1080x1350.png", 1080, 1350, 1),
 ]
 # Flyer: DIN A5 + 3 mm Beschnitt (154 × 216 mm), Vorder- und Rückseite
 PDF_JOBS = [
